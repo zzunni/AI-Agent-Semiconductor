@@ -1,19 +1,19 @@
 # AI-Driven Semiconductor Quality Control System
 
-Multi-stage decision support system using 6 AI models for real-time wafer inspection optimization.
+Multi-stage inspection pipeline with economic optimization for semiconductor wafer quality control.
 
 ## Overview
 
-This project implements an advanced AI-powered quality control system for semiconductor manufacturing. It leverages multiple specialized AI models to analyze wafer defects, identify patterns, perform root cause analysis, and optimize inspection processes in real-time.
+This project implements an AI-powered quality control system for semiconductor manufacturing that combines machine learning models with large language models for cost-aware inspection routing. The system uses a 4-stage pipeline to progressively analyze wafer defects while optimizing inspection costs through intelligent decision-making at each stage.
 
 ## Tech Stack
 
 - **Python**: 3.9+
-- **AI/LLM**: Anthropic Claude (Sonnet 4.5)
-- **Web Interface**: Streamlit
-- **Machine Learning**: scikit-learn, XGBoost
-- **Data Processing**: pandas, numpy
-- **Visualization**: matplotlib, seaborn, plotly
+- **AI/LLM**: Anthropic Claude (claude-sonnet-4-20250514)
+- **Web Interface**: Streamlit 1.30.0
+- **Machine Learning**: scikit-learn 1.3.2, XGBoost 2.0.1
+- **Data Processing**: pandas 2.0.3, numpy 1.24.3
+- **Visualization**: plotly 5.18.0
 
 ## Project Structure
 
@@ -47,14 +47,41 @@ ai-agent-semiconductor/
 
 ## Features
 
-### 6 AI Models for Comprehensive Quality Control
+### 4-Stage Inspection Pipeline
 
-1. **Pattern Discovery**: Identifies recurring defect patterns across wafer batches
-2. **Root Cause Analysis**: Analyzes defects to determine underlying causes
-3. **Defect Classification**: Categorizes defects by type and severity
-4. **Predictive Maintenance**: Forecasts equipment issues before they occur
-5. **Process Optimization**: Recommends process improvements
-6. **Learning & Feedback**: Continuously improves from inspection results
+The system uses a progressive inspection approach with specialized models at each stage:
+
+1. **Stage 0: Anomaly Detection** (Isolation Forest)
+   - Initial screening of wafer data to identify potential anomalies
+   - Risk-based classification (high, medium, low risk)
+   - Determines which wafers need further inspection
+
+2. **Stage 1: Risk Assessment** (XGBoost)
+   - Economic decision-making: inline inspection vs. rework vs. pass
+   - Cost-benefit analysis considering wafer value and rework costs
+   - Routes high-risk wafers to detailed inspection
+
+3. **Stage 2b: Severity Analysis** (CNN)
+   - Deep learning-based defect severity assessment
+   - Determines if expensive SEM inspection is justified
+   - Optimizes use of limited SEM inspection budget
+
+4. **Stage 3: Detailed Classification** (ResNet)
+   - Fine-grained defect classification and root cause analysis
+   - LLM-powered pattern discovery and recommendations
+   - Generates actionable insights for process improvement
+
+### Economic Optimization
+
+- **Budget Management**: Tracks monthly inspection budgets for inline and SEM inspection
+- **Cost-Aware Routing**: Routes wafers to appropriate inspection based on cost-benefit analysis
+- **ROI Maximization**: Optimizes inspection decisions to maximize value within budget constraints
+
+### Intelligence & Learning
+
+- **Pattern Discovery**: Statistical analysis to identify recurring defect patterns (14-day lookback)
+- **Continuous Learning**: Feedback-based model improvement (minimum 50 samples)
+- **LLM Integration**: Claude for root cause analysis and recommendations
 
 ## Installation
 
@@ -121,19 +148,20 @@ results = pipeline.process(input_data)
 
 ### Model Settings
 
-Edit `config.yaml` to configure:
-- Individual model parameters (temperature, max_tokens)
-- Enable/disable specific models
-- API settings and timeouts
-- Pipeline batch size and thresholds
+Edit [config.yaml](config.yaml) to configure:
+- **Budget**: Monthly budgets and per-wafer costs for inline/SEM inspection
+- **Stage Models**: Paths and thresholds for each ML model (Isolation Forest, XGBoost, CNN, ResNet)
+- **LLM Settings**: Claude model configuration (temperature, max_tokens)
+- **Discovery**: Pattern discovery parameters (lookback days, significance threshold)
+- **Learning**: Feedback-based learning settings (minimum samples)
+- **Simulation**: Engineer approval rates for rough vs. detailed analysis
 
 ### Environment Variables
 
-Key environment variables in `.env`:
+Key environment variables in [.env](.env):
 - `ANTHROPIC_API_KEY`: Your Anthropic API key (required)
-- `CLAUDE_MODEL`: Claude model version to use
-- `LOG_LEVEL`: Logging verbosity (DEBUG, INFO, WARNING, ERROR)
-- `ENABLE_REAL_TIME_PROCESSING`: Enable real-time processing mode
+
+All other configuration is centralized in [config.yaml](config.yaml) for easier management.
 
 ## Development
 

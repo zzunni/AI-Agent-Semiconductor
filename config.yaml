@@ -1,78 +1,55 @@
-# AI-Driven Semiconductor Quality Control System Configuration
+system:
+  random_seed: 42
+  log_level: INFO
 
-# Model Settings
+budget:
+  monthly:
+    inline: 50000
+    sem: 30000
+  costs:
+    inline_per_wafer: 150
+    sem_per_wafer: 800
+    rework: 200
+
 models:
-  # Model 1: Pattern Discovery
-  pattern_discovery:
-    enabled: true
-    temperature: 0.7
-    max_tokens: 4000
+  stage0:
+    path: models/stage0_isolation_forest.pkl
+    confidence_threshold: 0.7
+    risk_thresholds:
+      high: 0.7
+      medium: 0.4
 
-  # Model 2: Root Cause Analysis
-  root_cause_analysis:
-    enabled: true
-    temperature: 0.5
-    max_tokens: 4000
+  stage1:
+    path: models/stage1_xgboost.pkl
+    wafer_value: 1000
+    rework_cost: 200
 
-  # Model 3: Defect Classification
-  defect_classification:
-    enabled: true
-    temperature: 0.3
-    max_tokens: 2000
+  stage2b:
+    path: models/stage2b_cnn.pkl
+    sem_cost: 800
+    severity_threshold: 0.7
 
-  # Model 4: Predictive Maintenance
-  predictive_maintenance:
-    enabled: true
-    temperature: 0.4
-    max_tokens: 3000
+  stage3:
+    path: models/stage3_resnet.pkl
+    confidence_threshold: 0.8
 
-  # Model 5: Process Optimization
-  process_optimization:
-    enabled: true
-    temperature: 0.6
-    max_tokens: 4000
+llm:
+  provider: anthropic
+  model: claude-sonnet-4-20250514
+  api_key_env: ANTHROPIC_API_KEY
+  max_tokens: 4000
+  temperature: 0.3
 
-  # Model 6: Learning & Feedback
-  learning_feedback:
-    enabled: true
-    temperature: 0.5
-    max_tokens: 3000
+discovery:
+  enabled: true
+  lookback_days: 14
+  significance_threshold: 0.01
 
-# API Configuration
-api:
-  anthropic:
-    model: claude-sonnet-4-5-20250929
-    max_retries: 3
-    timeout: 60
+learning:
+  enabled: true
+  minimum_feedbacks: 50
 
-# Data Paths
-data:
-  inputs: ./data/inputs
-  outputs: ./data/outputs
-  models: ./models
-
-# Logging Configuration
-logging:
-  level: INFO
-  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-  pattern_discovery_log: ./logs/pattern_discovery
-  root_cause_log: ./logs/root_cause_analysis
-  learning_feedback_log: ./logs/learning_feedback
-
-# Pipeline Parameters
-pipeline:
-  batch_size: 32
-  confidence_threshold: 0.85
-  enable_real_time: true
-  max_concurrent_tasks: 4
-
-# Wafer Inspection Settings
-inspection:
-  image_resolution: [1024, 1024]
-  defect_types:
-    - scratch
-    - particle
-    - stain
-    - pattern_defect
-    - edge_defect
-  severity_levels: [low, medium, high, critical]
+simulation:
+  engineer_mode: rough
+  approval_rate_rough: 0.8
+  approval_rate_detailed: 0.9
