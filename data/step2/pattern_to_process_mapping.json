@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "notes": [
+    "edit this file to reflect your fab/process knowledge",
+    "scratch is routed to physical damage bucket, not sem"
+  ],
+  "default": {
+    "process_step": "unknown",
+    "hypothesis": "no mapping rule for this pattern; requires engineer review"
+  },
+  "patterns": {
+    "scratch": {
+      "process_step": "handling_or_transport",
+      "hypothesis": "physical damage likely from handling/transfer; prefer non-sem handling investigation"
+    },
+    "random": {
+      "process_step": "process_variation_screening",
+      "hypothesis": "distributed defects; sem needed to identify particle/chemistry vs noise-like map"
+    },
+    "edge-ring": {
+      "process_step": "edge_process_control",
+      "hypothesis": "edge nonuniformity; check edge exclusion/chucking/edge conditions"
+    },
+    "edge-loc": {
+      "process_step": "edge_local_issue",
+      "hypothesis": "localized edge issue; check edge tool path/local chamber effects"
+    },
+    "center": {
+      "process_step": "center_uniformity_control",
+      "hypothesis": "center-dominant issue; check center temperature/flow"
+    },
+    "donut": {
+      "process_step": "radial_uniformity_control",
+      "hypothesis": "ring-shaped issue; check radial gas/temperature gradients"
+    },
+    "loc": {
+      "process_step": "localized_chamber_issue",
+      "hypothesis": "localized cluster; sem to determine particle vs systematic signature"
+    },
+    "near-full": {
+      "process_step": "catastrophic_event_triage",
+      "hypothesis": "near-full defect; prioritize rapid root cause confirmation"
+    },
+    "none": {
+      "process_step": "no_defect",
+      "hypothesis": "no obvious defect; sem low priority unless other triggers"
+    }
+  }
+}

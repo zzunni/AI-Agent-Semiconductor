@@ -1,0 +1,237 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-01-29T09:58:24.836704",
+  "notes": "Step3 mapping: triage + predicted defect class -> hypotheses/checklist + process improvement action. Includes rough implementation cost for automating each action.",
+  "triage_policy": {
+    "A_strong_evidence": {
+      "dr_priority": "High",
+      "auto_confirm_allowed": true,
+      "process_improvement_action": "Confirm",
+      "impl_cost": {
+        "expected_cases_per_100": 89.63,
+        "expected_manual_touch_cases_per_100": 8.3,
+        "manual_touch_rate_stage3_sample": 0.0926,
+        "note": "Counts/rates derived from outputs (triage n=694; engineer decisions n=200)."
+      }
+    },
+    "B_overconfidence_warn": {
+      "dr_priority": "High",
+      "auto_confirm_allowed": false,
+      "process_improvement_action": "Manual review + Add SEM",
+      "impl_cost": {
+        "expected_cases_per_100": 0.29,
+        "expected_manual_touch_cases_per_100": 0.29,
+        "manual_touch_rate_stage3_sample": 1.0,
+        "note": "Counts/rates derived from outputs (triage n=694; engineer decisions n=200)."
+      }
+    },
+    "C_ambiguous_boundary": {
+      "dr_priority": "Medium",
+      "auto_confirm_allowed": false,
+      "process_improvement_action": "Re-check + Optional re-acquire",
+      "impl_cost": {
+        "expected_cases_per_100": 8.65,
+        "expected_manual_touch_cases_per_100": 6.05,
+        "manual_touch_rate_stage3_sample": 0.7,
+        "note": "Counts/rates derived from outputs (triage n=694; engineer decisions n=200)."
+      }
+    },
+    "D_acquisition_risk": {
+      "dr_priority": "Low→Medium",
+      "auto_confirm_allowed": false,
+      "process_improvement_action": "Re-acquire first",
+      "impl_cost": {
+        "expected_cases_per_100": 1.44,
+        "expected_manual_touch_cases_per_100": 1.2,
+        "manual_touch_rate_stage3_sample": 0.8333,
+        "note": "Counts/rates derived from outputs (triage n=694; engineer decisions n=200)."
+      }
+    }
+  },
+  "class_templates": {
+    "1": {
+      "name_en": "Scratch / Drag mark",
+      "name_ko": "스크래치/드래그"
+    },
+    "2": {
+      "name_en": "Long scratch / Line defect",
+      "name_ko": "장선형 스크래치"
+    },
+    "3": {
+      "name_en": "Particle / Foreign material",
+      "name_ko": "파티클/이물"
+    },
+    "4": {
+      "name_en": "Pit / Crater",
+      "name_ko": "피트/크레이터"
+    },
+    "5": {
+      "name_en": "Water mark / Residue spot",
+      "name_ko": "워터마크/잔사"
+    },
+    "6": {
+      "name_en": "No visible defect / Target miss",
+      "name_ko": "결함 미관측/타겟 미스"
+    }
+  },
+  "triage_class_tuning": {
+    "B_overconfidence_warn": {
+      "3": {
+        "impl_cost": {
+          "eng_days": 4,
+          "risk": "medium"
+        },
+        "focus": "Particle↔Pit confusion guardrail"
+      },
+      "4": {
+        "impl_cost": {
+          "eng_days": 4,
+          "risk": "medium"
+        },
+        "focus": "Pit↔Particle confusion guardrail"
+      }
+    },
+    "C_ambiguous_boundary": {
+      "2": {
+        "impl_cost": {
+          "eng_days": 3,
+          "risk": "medium"
+        },
+        "focus": "Need wider ROI / continuity check"
+      },
+      "3": {
+        "impl_cost": {
+          "eng_days": 3,
+          "risk": "medium"
+        },
+        "focus": "Low-contrast particle vs noise"
+      }
+    },
+    "D_acquisition_risk": {
+      "6": {
+        "impl_cost": {
+          "eng_days": 3,
+          "risk": "medium"
+        },
+        "focus": "Re-acquire / target-miss recovery flow"
+      }
+    }
+  },
+  "data_driven_stats": {
+    "source": {
+      "classifier_expected_impact_json": "classifier_expected_impact.json",
+      "stage3_results_final_csv": "stage3_results_final.csv"
+    },
+    "classifier_dataset": {
+      "n": 694,
+      "accuracy": 0.9827089337175793,
+      "entropy_mean": 0.4206017706468057,
+      "triage_distribution": {
+        "A_strong_evidence": {
+          "count": 622,
+          "rate": 0.8962536023054755
+        },
+        "C_ambiguous_boundary": {
+          "count": 60,
+          "rate": 0.08645533141210375
+        },
+        "D_acquisition_risk": {
+          "count": 10,
+          "rate": 0.01440922190201729
+        },
+        "B_overconfidence_warn": {
+          "count": 2,
+          "rate": 0.002881844380403458
+        }
+      },
+      "auto_confirmable_rate": 0.8962536023054755,
+      "dr_priority_distribution": {
+        "High": 624,
+        "Medium": 60,
+        "Low→Medium": 10
+      }
+    },
+    "stage3_sample": {
+      "n": 200,
+      "engineer_decision_overall_counts": {
+        "IMPLEMENT": 157,
+        "INVESTIGATE": 25,
+        "MODIFY": 14,
+        "DEFER": 4
+      },
+      "engineer_decision_by_triage": {
+        "A_strong_evidence": {
+          "n": 162,
+          "engineer_decision_counts": {
+            "IMPLEMENT": 147,
+            "MODIFY": 8,
+            "INVESTIGATE": 7
+          },
+          "engineer_decision_rates": {
+            "IMPLEMENT": 0.9074074074074074,
+            "MODIFY": 0.04938271604938271,
+            "INVESTIGATE": 0.043209876543209874
+          },
+          "action_counts": {
+            "Confirm": 162
+          }
+        },
+        "B_overconfidence_warn": {
+          "n": 2,
+          "engineer_decision_counts": {
+            "INVESTIGATE": 2
+          },
+          "engineer_decision_rates": {
+            "INVESTIGATE": 1.0
+          },
+          "action_counts": {
+            "Manual review + Add SEM": 2
+          }
+        },
+        "C_ambiguous_boundary": {
+          "n": 30,
+          "engineer_decision_counts": {
+            "INVESTIGATE": 15,
+            "IMPLEMENT": 9,
+            "DEFER": 3,
+            "MODIFY": 3
+          },
+          "engineer_decision_rates": {
+            "INVESTIGATE": 0.5,
+            "IMPLEMENT": 0.3,
+            "DEFER": 0.1,
+            "MODIFY": 0.1
+          },
+          "action_counts": {
+            "Re-check + Optional re-acquire": 30
+          }
+        },
+        "D_acquisition_risk": {
+          "n": 6,
+          "engineer_decision_counts": {
+            "MODIFY": 3,
+            "IMPLEMENT": 1,
+            "INVESTIGATE": 1,
+            "DEFER": 1
+          },
+          "engineer_decision_rates": {
+            "MODIFY": 0.5,
+            "IMPLEMENT": 0.16666666666666666,
+            "INVESTIGATE": 0.16666666666666666,
+            "DEFER": 0.16666666666666666
+          },
+          "action_counts": {
+            "Re-acquire first": 6
+          }
+        }
+      },
+      "auto_confirm_risk_proxy": {
+        "A_strong_evidence": {
+          "n": 162,
+          "IMPLEMENT_rate": 0.9074074074074074,
+          "needs_touch_rate": 0.09259259259259259
+        }
+      }
+    }
+  }
+}

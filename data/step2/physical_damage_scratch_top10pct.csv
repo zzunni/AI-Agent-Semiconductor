@@ -1,0 +1,1 @@
+orig_idx,true_label,pred_label,conf,defect_ratio,edge_bias,cluster_score,isolated_ratio,mean_neighbors,random_like,blob_like,cluster_like,severity,route_reason,route_action

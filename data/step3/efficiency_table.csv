@@ -1,0 +1,3 @@
+﻿group,selected_k,matched_k,total_sem_cost,mean_severity,triage_A_rate,triage_B_rate,triage_C_rate,triage_D_rate,triage_BCD_rate
+random,100,100,500000.0,49.34660000000001,0.76,0.02,0.2,0.02,0.24
+ai,100,100,500000.0,88.79150000000001,0.86,0.0,0.1,0.04,0.14

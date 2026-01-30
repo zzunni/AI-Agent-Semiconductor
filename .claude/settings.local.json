@@ -3,7 +3,26 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial project scaffolding for AI-driven semiconductor quality control system\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial project scaffolding for AI-driven semiconductor quality control system\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(python:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate configuration for multi-stage inspection pipeline with cost tracking\n\n- Pin dependency versions for reproducibility\n- Replace 6-model AI system with 4-stage pipeline \\(Isolation Forest, XGBoost, CNN, ResNet\\)\n- Add budget tracking and economic optimization parameters\n- Simplify .env.example to API key only\n- Update .gitignore for CSV data and markdown logs\n- Update README to reflect new architecture\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(./venv/bin/pip install:*)",
+      "Bash(./venv/bin/python:*)",
+      "Bash(ls:*)",
+      "Bash(pip install:*)",
+      "Bash(curl:*)",
+      "Bash(streamlit run:*)",
+      "Bash(pip show:*)",
+      "Bash(python3:*)",
+      "Bash(lsof:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(git -C /Users/choeyejun/Documents/ai-agent-semiconductor log --oneline)"
     ]
   }
 }

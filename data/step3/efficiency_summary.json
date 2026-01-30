@@ -1,0 +1,24 @@
+{
+  "random": {
+    "selected_k": 100,
+    "matched_k": 100,
+    "total_sem_cost": 500000.0,
+    "mean_severity": 49.34660000000001,
+    "triage_A_rate": 0.76,
+    "triage_B_rate": 0.02,
+    "triage_C_rate": 0.2,
+    "triage_D_rate": 0.02,
+    "triage_BCD_rate": 0.24
+  },
+  "ai": {
+    "selected_k": 100,
+    "matched_k": 100,
+    "total_sem_cost": 500000.0,
+    "mean_severity": 88.79150000000001,
+    "triage_A_rate": 0.86,
+    "triage_B_rate": 0.0,
+    "triage_C_rate": 0.1,
+    "triage_D_rate": 0.04,
+    "triage_BCD_rate": 0.14
+  }
+}

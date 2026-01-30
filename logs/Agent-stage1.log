@@ -1,0 +1,317 @@
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0011: PROCEED (confidence=0.75, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 12:50:30] [INFO] [Agent-stage1] [info:68] Logged decision for W0001: AI=PROCEED (0.60), Engineer=PROCEED
+[2026-01-29 13:29:14] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:29:14] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:17] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0011: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0012: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0013: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0014: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0015: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0016: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0017: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0018: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0019: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0020: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0011: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0012: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0013: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0014: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0015: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0011: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0012: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0013: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0014: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0015: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0016: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0017: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0018: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0019: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0020: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0021: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0022: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0023: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0024: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0025: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0026: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0027: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0028: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0029: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:32:18] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0030: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0011: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0012: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0013: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0014: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0015: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0016: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0017: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0018: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0019: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0020: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0011: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0012: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0013: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0014: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0015: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0006: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0007: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0008: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0009: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0010: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0011: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0012: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0013: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0014: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0015: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0016: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0017: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0018: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0019: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0020: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0021: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0022: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0023: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0024: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0025: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0026: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0027: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0028: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0029: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:33:07] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0030: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:37:22] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:37:22] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:37:22] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:40:31] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 13:40:31] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 13:40:31] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 13:45:34] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 13:54:21] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:25] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:25] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:25] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0003: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0004: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0005: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:56:53] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 15:56:53] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 15:56:53] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 15:56:53] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 16:12:01] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 16:12:40] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0002: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 16:13:21] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 16:13:21] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 16:13:21] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 16:13:27] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 16:15:02] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 16:15:02] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 16:15:02] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 16:16:31] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200
+[2026-01-29 16:17:26] [INFO] [Agent-stage1] [info:68] Stage1 recommendation for W0001: PROCEED (confidence=0.60, predicted_yield=60.60%)
+[2026-01-29 16:40:25] [INFO] [Agent-stage1] [info:68] Successfully loaded model: models/stage1_xgboost.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage1] [info:68] Loaded model from models/stage1_xgboost.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage1] [info:68] Stage1Agent initialized: wafer_value=$1000, rework_cost=$200

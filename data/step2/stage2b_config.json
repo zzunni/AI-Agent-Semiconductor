@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "severity_policy": {
+    "top_p": 0.1,
+    "compute_threshold_on": "all_including_scratch"
+  },
+  "routing_policy": {
+    "physical_damage_label": "scratch",
+    "route_scratch_to": "physical_damage_bucket"
+  },
+  "mandatory_policy_within_top": {
+    "mandatory_flags": [
+      "random_like",
+      "blob_like",
+      "cluster_like"
+    ]
+  },
+  "sem_budget": {
+    "sem_unit_cost": 1.0,
+    "sem_total_budget": null,
+    "sem_max_count": null,
+    "notes": [
+      "if sem_total_budget and sem_unit_cost are set, max_count = floor(total_budget/unit_cost)",
+      "if sem_max_count is set, it caps the selected sem count",
+      "if both are None, all non-scratch top10 candidates are selected"
+    ]
+  },
+  "pattern_mapping": {
+    "mapping_path": "pattern_to_process_mapping.json"
+  }
+}

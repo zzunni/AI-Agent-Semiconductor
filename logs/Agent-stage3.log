@@ -1,0 +1,215 @@
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0006: SCRAP (confidence=0.87, defect=Residue, count=26)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0001: REWORK (confidence=0.75, defect=Residue, count=15)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0003: MONITOR (confidence=0.85, defect=Residue, count=9)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0001: REWORK (confidence=0.75, defect=Residue, count=15)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0002: REWORK (confidence=0.75, defect=Residue, count=20)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0003: MONITOR (confidence=0.85, defect=Residue, count=9)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0004: REWORK (confidence=0.75, defect=Particle, count=16)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0005: MONITOR (confidence=0.85, defect=Scratch, count=9)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0006: SCRAP (confidence=0.87, defect=Residue, count=26)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0007: MONITOR (confidence=0.85, defect=Residue, count=8)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0008: SCRAP (confidence=0.89, defect=Particle, count=24)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0009: REWORK (confidence=0.75, defect=Scratch, count=18)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0010: REWORK (confidence=0.75, defect=Particle, count=16)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:20:19] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0001: REWORK (confidence=0.75, defect=Residue, count=15)
+[2026-01-29 13:20:19] [INFO] [Agent-stage3] [info:68] Logged decision for W0001: AI=REWORK (0.75), Engineer=REWORK
+[2026-01-29 13:29:14] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:29:14] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:29:14] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:29:14] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:29:14] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:29:14] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:32:17] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:32:17] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:32:17] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:32:17] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:32:17] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:32:18] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:32:18] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:32:18] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0025: MONITOR (confidence=0.85, defect=Particle, count=9)
+[2026-01-29 13:32:18] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0026: REWORK (confidence=0.75, defect=Particle, count=13)
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:33:07] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0025: MONITOR (confidence=0.85, defect=Particle, count=9)
+[2026-01-29 13:33:07] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0026: REWORK (confidence=0.75, defect=Particle, count=13)
+[2026-01-29 13:37:22] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:37:22] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:37:22] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:37:22] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 13:40:31] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 13:40:31] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 13:40:31] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:40:31] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:25] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:25] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:25] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:25] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:44] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:44] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:44] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:44] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:44] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:51] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:51] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:51] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:54:51] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:54:51] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 15:56:53] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 15:56:53] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 15:56:53] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 15:56:53] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0001: Priority=MEDIUM_PRIORITY, defect=Residue, count=15, target=NEXT_LOT
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:00:55] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:00:55] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W0123: Priority=MEDIUM_PRIORITY, defect=Particle, count=20, target=NEXT_LOT
+[2026-01-29 16:02:28] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:02:28] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:02:28] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:02:28] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:02:28] [WARNING] [Agent-stage3] [warning:72] No Carinthia proxy data for W_TEST - using fallback
+[2026-01-29 16:02:28] [INFO] [Agent-stage3] [info:68] Stage3 recommendation for W_TEST: Priority=MEDIUM_PRIORITY, defect=Particle, count=10, target=NEXT_LOT
+[2026-01-29 16:13:21] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:13:21] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:13:21] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:13:21] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:15:02] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:15:02] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:15:02] [WARNING] [Agent-stage3] [warning:72] LLM client unavailable: Client.__init__() got an unexpected keyword argument 'proxies'
+[2026-01-29 16:15:02] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=False, confidence_threshold=0.8
+[2026-01-29 16:16:31] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage3] [info:68] LLM client initialized for root cause analysis
+[2026-01-29 16:16:31] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=True, confidence_threshold=0.8
+[2026-01-29 16:40:25] [INFO] [Agent-stage3] [info:68] Successfully loaded model: models/stage3_resnet.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage3] [info:68] Loaded model from models/stage3_resnet.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage3] [info:68] LLM client initialized for root cause analysis
+[2026-01-29 16:40:25] [INFO] [Agent-stage3] [info:68] Stage3Agent initialized: llm_enabled=True, confidence_threshold=0.8

@@ -1,0 +1,23 @@
+{
+  "version": "step003-stage3-v1",
+
+  "inputs": {
+    "mapped_selection_csv": "../outputs/selections/selected_mapped.csv",
+    "decision_cards_csv": "../outputs/sem_decision_cards/decision_cards.csv"
+  },
+
+  "mapping": {
+    "defect_to_action_mapping_json": "./defect_to_action_mapping.json"
+  },
+
+  "outputs": {
+    "out_dir": "../outputs/stage3",
+    "stage3_results_csv": "stage3_results.csv"
+  },
+
+  "defaults": {
+    "engineer_decision": null,
+    "engineer_modification": null,
+    "engineer_note": null
+  }
+}

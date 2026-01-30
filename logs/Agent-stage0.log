@@ -1,0 +1,416 @@
+[2026-01-29 12:38:55] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:38:55] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:08] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:08] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:08] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:08] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:08] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:08] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:08] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:08] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Logged decision for W_TEST_004: AI=INLINE (0.85), Engineer=INLINE
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:39:40] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0025: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 12:42:24] [INFO] [Agent-stage0] [info:68] Logged decision for W0001: AI=SKIP (0.44), Engineer=SKIP
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:29:14] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:17] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0011: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0012: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0013: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0014: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0015: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0016: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0017: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0018: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0019: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0020: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0011: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0012: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0013: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0014: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0015: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0011: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0012: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0013: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0014: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0015: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0016: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0017: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0018: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0019: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0020: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0021: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0022: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0023: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0024: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0025: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0026: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0027: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0028: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0029: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:32:18] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0030: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0011: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0012: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0013: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0014: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0015: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0016: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0017: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0018: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0019: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0020: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0011: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0012: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0013: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0014: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0015: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0006: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0007: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0008: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0009: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0010: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0011: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0012: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0013: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0014: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0015: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0016: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0017: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0018: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0019: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0020: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0021: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0022: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0023: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0024: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0025: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0026: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0027: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0028: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0029: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:33:07] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0030: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:37:22] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:37:22] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:37:22] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:37:22] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:37:22] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:40:31] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 13:40:31] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 13:40:31] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 13:40:31] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 13:40:31] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 13:45:34] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 13:54:21] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:25] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:25] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:25] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:25] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:25] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0003: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0004: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0005: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:56:53] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 15:56:53] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 15:56:53] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 15:56:53] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 15:56:53] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 15:56:53] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 16:12:01] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 16:12:40] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0002: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 16:13:21] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 16:13:21] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 16:13:21] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 16:13:21] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 16:13:21] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 16:13:27] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 16:15:02] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 16:15:02] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 16:15:02] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 16:15:02] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 16:15:02] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 16:16:31] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150
+[2026-01-29 16:17:26] [INFO] [Agent-stage0] [info:68] Stage0 recommendation for W0001: SKIP (confidence=0.44, risk=MEDIUM)
+[2026-01-29 16:40:25] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_isolation_forest.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage0] [info:68] Loaded model from models/stage0_isolation_forest.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage0] [info:68] Successfully loaded model: models/stage0_scaler.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage0] [info:68] Loaded scaler from models/stage0_scaler.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage0] [info:68] Stage0Agent initialized: confidence_threshold=0.7, inline_cost=$150

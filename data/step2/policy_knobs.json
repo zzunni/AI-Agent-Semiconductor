@@ -1,0 +1,44 @@
+{
+  "physical_damage_label": "scratch",
+  "top_p_list": [
+    0.05,
+    0.1
+  ],
+  "sem_budget_by_p": {
+    "0.05": null,
+    "0.1": null
+  },
+  "random_isolated_ratio_th": 0.6,
+  "random_edge_bias_th": 0.05,
+  "random_defect_ratio_min": 0.02,
+  "random_defect_ratio_max": 0.2,
+  "blob_defect_ratio_min": 0.02,
+  "blob_mean_neighbors_th": 3.5,
+  "cluster_score_th": 0.6,
+  "structured_like": [
+    "center",
+    "donut",
+    "edge-loc",
+    "edge-ring",
+    "near-full",
+    "scratch"
+  ],
+  "weights": {
+    "w_defect_ratio": 2.8,
+    "w_edge_bias": 1.2,
+    "w_cluster": 1.5,
+    "w_uncertainty": 0.8,
+    "w_patternprior": 1.0
+  },
+  "pattern_prior": {
+    "near-full": 1.0,
+    "scratch": 0.0,
+    "random": 0.6,
+    "loc": 0.5,
+    "edge-ring": 0.5,
+    "edge-loc": 0.4,
+    "center": 0.4,
+    "donut": 0.4,
+    "none": 0.0
+  }
+}

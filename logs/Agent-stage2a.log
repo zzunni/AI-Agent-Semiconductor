@@ -1,0 +1,79 @@
+[2026-01-29 15:45:23] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:45:23] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:45:23] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:45:23] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:45:23] [INFO] [Agent-stage2a] [info:68] Analyzing LOT LOT-001 with 25 wafers
+[2026-01-29 15:45:23] [INFO] [Agent-stage2a] [info:68] LOT LOT-001 analysis: quality=FAIL, violations=0, uniformity=0.000, risk=HIGH
+[2026-01-29 15:45:23] [INFO] [Agent-stage2a] [info:68] Stage2A recommendation for LOT LOT-001: LOT_SCRAP (confidence=HIGH, cost=$500,000)
+[2026-01-29 15:46:36] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:46:37] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:46:37] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:46:37] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:46:37] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:46:37] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:46:37] [INFO] [Agent-stage2a] [info:68] Analyzing LOT LOT-001 with 25 wafers
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] LOT LOT-001 analysis: quality=PASS, violations=0, uniformity=0.693, risk=MEDIUM
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Stage2A recommendation for LOT LOT-001: LOT_PROCEED (confidence=MEDIUM, cost=$0)
+[2026-01-29 15:46:38] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Analyzing LOT LOT-002 with 25 wafers
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] LOT LOT-002 analysis: quality=FAIL, violations=200, uniformity=0.000, risk=HIGH
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Stage2A recommendation for LOT LOT-002: LOT_SCRAP (confidence=HIGH, cost=$500,000)
+[2026-01-29 15:46:38] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Analyzing LOT LOT-003 with 25 wafers
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] LOT LOT-003 analysis: quality=FAIL, violations=200, uniformity=0.000, risk=HIGH
+[2026-01-29 15:46:38] [INFO] [Agent-stage2a] [info:68] Stage2A recommendation for LOT LOT-003: LOT_SCRAP (confidence=HIGH, cost=$500,000)
+[2026-01-29 15:54:25] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:25] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:25] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:44] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:44] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:44] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:44] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Analyzing LOT LOT-TEST-001 with 25 wafers
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] LOT LOT-TEST-001 analysis: quality=PASS, violations=0, uniformity=0.848, risk=LOW
+[2026-01-29 15:54:44] [INFO] [Agent-stage2a] [info:68] Stage2A recommendation for LOT LOT-TEST-001: LOT_PROCEED (confidence=HIGH, cost=$0)
+[2026-01-29 15:54:51] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:51] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:51] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:51] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Analyzing LOT LOT-TEST-001 with 25 wafers
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] LOT LOT-TEST-001 analysis: quality=PASS, violations=0, uniformity=0.848, risk=LOW
+[2026-01-29 15:54:51] [INFO] [Agent-stage2a] [info:68] Stage2A recommendation for LOT LOT-TEST-001: LOT_PROCEED (confidence=HIGH, cost=$0)
+[2026-01-29 15:56:53] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 15:56:53] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 15:56:53] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 15:56:53] [INFO] [Agent-stage2a] [info:68] Analyzing LOT LOT-SMOKE-TEST with 25 wafers
+[2026-01-29 15:56:53] [INFO] [Agent-stage2a] [info:68] LOT LOT-SMOKE-TEST analysis: quality=PASS, violations=0, uniformity=0.848, risk=LOW
+[2026-01-29 15:56:53] [INFO] [Agent-stage2a] [info:68] Stage2A recommendation for LOT LOT-SMOKE-TEST: LOT_PROCEED (confidence=HIGH, cost=$0)
+[2026-01-29 16:13:21] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 16:13:21] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 16:13:21] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 16:15:02] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 16:15:02] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 16:15:02] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 16:16:31] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 16:16:31] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 16:16:31] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25
+[2026-01-29 16:40:25] [WARNING] [Agent-stage2a] [warning:72] Model path not found: None
+[2026-01-29 16:40:25] [INFO] [Agent-stage2a] [info:68] Successfully loaded model: models/stage2a_wat_classifier.pkl
+[2026-01-29 16:40:25] [INFO] [Agent-stage2a] [info:68] Stage2AAgent initialized: lot_scrap_cost=$500,000, wafer_value=$20,000, wafers_per_lot=25

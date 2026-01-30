@@ -1,0 +1,63 @@
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=50
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=50
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Starting feedback analysis (lookback: 30 days)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Loaded 100 decisions from log
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Analyzing 100 recent decisions (from 2025-12-30)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Cost sensitivity pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Confidence threshold pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Stage-specific approval pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Metrics calculated: 100 decisions, 62.0% approval rate, 38 disagreements
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=50
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Starting feedback analysis (lookback: 30 days)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Loaded 100 decisions from log
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Analyzing 100 recent decisions (from 2025-12-30)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Cost sensitivity pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Confidence threshold pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Stage-specific approval pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Metrics calculated: 100 decisions, 62.0% approval rate, 38 disagreements
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=50
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Starting feedback analysis (lookback: 30 days)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Loaded 100 decisions from log
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Analyzing 100 recent decisions (from 2025-12-30)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Cost sensitivity pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Confidence threshold pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Stage-specific approval pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Metrics calculated: 100 decisions, 62.0% approval rate, 38 disagreements
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=50
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Starting feedback analysis (lookback: 30 days)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Loaded 100 decisions from log
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Analyzing 100 recent decisions (from 2025-12-30)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Cost sensitivity pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Confidence threshold pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Stage-specific approval pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Metrics calculated: 100 decisions, 62.0% approval rate, 38 disagreements
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=50
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Starting feedback analysis (lookback: 30 days)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Loaded 100 decisions from log
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Analyzing 100 recent decisions (from 2025-12-30)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Cost sensitivity pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Confidence threshold pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Stage-specific approval pattern identified
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Metrics calculated: 100 decisions, 62.0% approval rate, 38 disagreements
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=50
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=1000
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Starting feedback analysis (lookback: 30 days)
+[2026-01-29 13:25:38] [INFO] [LearningAgent] [info:68] Loaded 100 decisions from log
+[2026-01-29 13:25:38] [WARNING] [LearningAgent] [warning:72] Insufficient data: 100 < 1000
+[2026-01-29 13:46:28] [WARNING] [LearningAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:46:28] [INFO] [LearningAgent] [info:68] LearningAgent initialized: minimum_feedbacks=50
+[2026-01-29 13:46:28] [INFO] [LearningAgent] [info:68] Starting feedback analysis (lookback: 30 days)
+[2026-01-29 13:46:28] [INFO] [LearningAgent] [info:68] Loaded 100 decisions from log
+[2026-01-29 13:46:28] [INFO] [LearningAgent] [info:68] Analyzing 100 recent decisions (from 2025-12-30)
+[2026-01-29 13:46:28] [INFO] [LearningAgent] [info:68] Cost sensitivity pattern identified
+[2026-01-29 13:46:28] [INFO] [LearningAgent] [info:68] Confidence threshold pattern identified
+[2026-01-29 13:46:28] [INFO] [LearningAgent] [info:68] Stage-specific approval pattern identified
+[2026-01-29 13:46:28] [INFO] [LearningAgent] [info:68] Metrics calculated: 100 decisions, 62.0% approval rate, 38 disagreements

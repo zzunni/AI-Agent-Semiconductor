@@ -26,10 +26,7 @@ ai-agent-semiconductor/
 ├── .gitignore                   # Git ignore rules
 ├── data/                        # Data directory
 │   ├── inputs/                  # Input data (wafer images, inspection data)
-│   ├── outputs/                 # Output data (analysis results, reports)
-│   ├── step1/                   # Step1 artifacts (Stage 0-2A)
-│   ├── step2/                   # Step2 artifacts (WM-811K benchmark)
-│   └── step3/                   # Step3 artifacts (Carinthia benchmark)
+│   └── outputs/                 # Output data (analysis results, reports)
 ├── models/                      # Trained ML models
 ├── logs/                        # Application logs
 │   ├── pattern_discovery/       # Pattern discovery logs
@@ -40,52 +37,13 @@ ai-agent-semiconductor/
 │   ├── pipeline/                # Processing pipeline
 │   ├── llm/                     # LLM integration
 │   └── utils/                   # Utility functions
-├── streamlit_app/               # Streamlit web application (Track A)
+├── streamlit_app/               # Streamlit web application
 │   ├── app.py                   # Main application entry point
 │   ├── pages/                   # Multi-page app pages
-│   └── utils/                   # UI components
-├── trackb/                      # Track B: Scientific validation pipeline
-│   ├── scripts/                 # Validation scripts
-│   ├── outputs/                 # Run-isolated outputs
-│   ├── configs/                 # Pipeline configuration
-│   └── docs/                    # Documentation
+│   └── components/              # Reusable UI components
 ├── notebooks/                   # Jupyter notebooks for exploration
 └── scripts/                     # Utility scripts
 ```
-
-## Repository Structure
-
-이 저장소는 두 개의 주요 트랙으로 구성됩니다:
-
-- **Track A (streamlit_app/)**: 운영용 웹 인터페이스 및 실시간 모니터링
-- **Track B (trackb/)**: 과학적 검증 파이프라인 및 논문 생성용 보고서
-
-### Track B: Scientific Validation Pipeline
-
-Track B는 AI 기반 반도체 검사 프레임워크의 과학적 검증을 위한 자동화된 파이프라인입니다.
-
-**주요 특징**:
-- ✅ **Core/Appendix 분리**: Step1 (yield_true GT validated) vs Step2/3 (proxy benchmark-only)
-- ✅ **정규화 비용 단위**: 절대 금액 사용 금지, normalized units만 사용
-- ✅ **Run isolation**: 각 실행마다 독립된 출력 디렉토리 (SHA256 manifest 포함)
-- ✅ **증거 게이트**: Proxy validation FAILED 시 Core 승격 차단
-- ✅ **자동 검증**: compileall → static_check → pipeline → verify → adversarial tests
-
-**빠른 시작**:
-```bash
-cd trackb/scripts
-python run_full_e2e.py  # Full E2E: compileall → static → run → verify → adversarial
-```
-
-**주요 산출물** (`trackb/outputs/run_YYYYMMDD_HHMMSS/reports/`):
-- `trackB_report_core_validated.md`: Step1 Core 결과 (yield_true GT 기반)
-- `trackB_report_appendix_proxy.md`: Step2/3 Proxy 결과 (benchmark-only)
-- `FINAL_VALIDATION.md`: Q1–Q6 종합 검증 + verdict
-- `paper_bundle.json`: 논문 생성 AI Agent용 입력 번들
-
-상세 문서: [trackb/README.md](trackb/README.md), [trackb/docs/runbook.md](trackb/docs/runbook.md)
-
----
 
 ## Features
 

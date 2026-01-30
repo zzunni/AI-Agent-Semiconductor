@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "type": "defect_to_action_mapping_data_driven",
+    "note": "Derived from triage distribution (efficiency_summary) and optional stage3 results evidence.",
+    "generated_at": "2026-01-30 09:37:00",
+    "triage_rate_source_group": "ai",
+    "source_efficiency_summary": "outputs/efficiency/efficiency_summary.json",
+    "source_stage3_results": "outputs/stage3/stage3_results_final.csv",
+    "stage3_rows_total": 200,
+    "stage3_rows_with_engineer_decision": 200,
+    "stage3_rows_with_triage": 200
+  },
+  "triage_policy": {
+    "triage_order": [
+      "A_strong_evidence",
+      "C_ambiguous_boundary",
+      "D_acquisition_risk",
+      "B_overconfidence_warn"
+    ],
+    "triage_rate": {
+      "A_strong_evidence": 0.86,
+      "B_overconfidence_warn": 0.0,
+      "C_ambiguous_boundary": 0.1,
+      "D_acquisition_risk": 0.04
+    },
+    "expected_cases_per_100": {
+      "A_strong_evidence": 86.0,
+      "B_overconfidence_warn": 0.0,
+      "C_ambiguous_boundary": 10.0,
+      "D_acquisition_risk": 4.0
+    },
+    "manual_intervention_label": {
+      "A_strong_evidence": "Low (auto-confirmable)",
+      "C_ambiguous_boundary": "Medium",
+      "D_acquisition_risk": "High",
+      "B_overconfidence_warn": "High"
+    },
+    "impl_cost": {
+      "A_strong_evidence": 0.2,
+      "C_ambiguous_boundary": 1.0,
+      "D_acquisition_risk": 2.0,
+      "B_overconfidence_warn": 2.0
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "technology_node",
+    "mean_abs_shap": 0.11872659623622894
+  },
+  {
+    "feature": "lot_id",
+    "mean_abs_shap": 0.016272807493805885
+  },
+  {
+    "feature": "tilt_angle",
+    "mean_abs_shap": 0.013569638133049011
+  },
+  {
+    "feature": "temperature",
+    "mean_abs_shap": 0.0120170833542943
+  },
+  {
+    "feature": "implant_energy",
+    "mean_abs_shap": 0.011273440904915333
+  },
+  {
+    "feature": "pressure",
+    "mean_abs_shap": 0.010958436876535416
+  },
+  {
+    "feature": "exposure_time",
+    "mean_abs_shap": 0.00964464619755745
+  },
+  {
+    "feature": "focus_offset",
+    "mean_abs_shap": 0.009248174726963043
+  },
+  {
+    "feature": "dose",
+    "mean_abs_shap": 0.00890004076063633
+  },
+  {
+    "feature": "wafer_id",
+    "mean_abs_shap": 0.008624294772744179
+  },
+  {
+    "feature": "implant_tool",
+    "mean_abs_shap": 0.00442671962082386
+  },
+  {
+    "feature": "deposition_tool",
+    "mean_abs_shap": 0.004194844979792833
+  },
+  {
+    "feature": "product_type",
+    "mean_abs_shap": 0.0038478882052004337
+  },
+  {
+    "feature": "litho_tool",
+    "mean_abs_shap": 0.0033201740588992834
+  },
+  {
+    "feature": "etch_tool",
+    "mean_abs_shap": 0.0030013129580765963
+  }
+]

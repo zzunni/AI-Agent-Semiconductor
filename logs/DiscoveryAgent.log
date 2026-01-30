@@ -1,0 +1,42 @@
+[2026-01-29 13:22:59] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 13:22:59] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 13:22:59] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 13:22:59] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 13:22:59] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Starting pattern discovery analysis
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Analyzing 1252 wafers with complete data
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Found 6 sensor-pattern correlations
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Found 0 chamber effects
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Found 0 recipe effects
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Pattern discovery complete: 6 patterns found
+[2026-01-29 13:22:59] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 13:22:59] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Starting pattern discovery analysis
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Analyzing 1252 wafers with complete data
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Found 6 sensor-pattern correlations
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Found 0 chamber effects
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Found 0 recipe effects
+[2026-01-29 13:22:59] [INFO] [DiscoveryAgent] [info:68] Pattern discovery complete: 6 patterns found
+[2026-01-29 13:46:06] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 13:46:06] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 13:46:06] [INFO] [DiscoveryAgent] [info:68] Starting pattern discovery analysis
+[2026-01-29 13:46:06] [INFO] [DiscoveryAgent] [info:68] Analyzing 1252 wafers with complete data
+[2026-01-29 13:46:06] [INFO] [DiscoveryAgent] [info:68] Found 6 sensor-pattern correlations
+[2026-01-29 13:46:06] [INFO] [DiscoveryAgent] [info:68] Found 0 chamber effects
+[2026-01-29 13:46:06] [INFO] [DiscoveryAgent] [info:68] Found 0 recipe effects
+[2026-01-29 13:46:06] [INFO] [DiscoveryAgent] [info:68] Pattern discovery complete: 6 patterns found
+[2026-01-29 16:12:32] [WARNING] [DiscoveryAgent] [warning:72] LLM client unavailable: API key not found in environment: ANTHROPIC_API_KEY
+[2026-01-29 16:12:32] [INFO] [DiscoveryAgent] [info:68] DiscoveryAgent initialized: lookback_days=14, significance_threshold=0.01
+[2026-01-29 16:12:32] [INFO] [DiscoveryAgent] [info:68] Starting pattern discovery analysis
+[2026-01-29 16:12:32] [INFO] [DiscoveryAgent] [info:68] Analyzing 1252 wafers with complete data
+[2026-01-29 16:12:32] [INFO] [DiscoveryAgent] [info:68] Found 6 sensor-pattern correlations
+[2026-01-29 16:12:32] [INFO] [DiscoveryAgent] [info:68] Found 0 chamber effects
+[2026-01-29 16:12:32] [INFO] [DiscoveryAgent] [info:68] Found 0 recipe effects
+[2026-01-29 16:12:32] [INFO] [DiscoveryAgent] [info:68] Pattern discovery complete: 6 patterns found

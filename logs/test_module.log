@@ -1,0 +1,4 @@
+[2026-01-29 11:32:02] [DEBUG] [test_module] [debug:64] This is a debug message
+[2026-01-29 11:32:02] [INFO] [test_module] [info:68] This is an info message
+[2026-01-29 11:32:02] [WARNING] [test_module] [warning:72] This is a warning message
+[2026-01-29 11:32:02] [ERROR] [test_module] [error:76] This is an error message
