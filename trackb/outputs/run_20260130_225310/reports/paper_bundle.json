@@ -1,0 +1,735 @@
+{
+  "meta": {
+    "run_id": "20260130_225310",
+    "created_at": "2026-01-30T22:53:11.884628",
+    "repo_commit": "01fe36b2926e",
+    "generator_version": "1.0",
+    "disclaimer_current_run_only": "본 보고서의 모든 수치·표·결론은 이 실행(run_20260130_225310)의 산출물만 사용합니다. 다른 run 또는 외부 데이터를 사용하지 않습니다."
+  },
+  "system_goal": {
+    "one_sentence_definition": "Budget-constrained high-risk wafer selection using multi-stage risk scores with same-source ground truth (yield_true) validation.",
+    "problem_setting": "Operational decision: which wafers to send to next-stage inspection under budget and throughput constraints; goal is to maximize high-risk detection (recall)."
+  },
+  "policies": {
+    "pass_fail_policy": "Step1_only",
+    "proxy_policy": {
+      "warn_only": true,
+      "integration_in_primary": false
+    },
+    "high_risk_definition": {
+      "evaluation_label": "yield_true bottom 20% with k fixed on test=200 (k=40)",
+      "operational_selection": "top selection_rate by risk_score (default 10%)"
+    },
+    "cost_policy": {
+      "absolute_dollar_forbidden": true,
+      "inline_cost_unit": 1,
+      "sem_cost_unit_grid": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        10
+      ]
+    },
+    "endpoints": {
+      "primary": [
+        "recall_at_selection_rate",
+        "normalized_cost_per_catch_or_cost_reduction"
+      ],
+      "exploratory": [
+        "t_test",
+        "chi_square",
+        "mcnemar",
+        "bootstrap_cost"
+      ],
+      "exploratory_statement": "hypothesis-generating"
+    },
+    "leakage_policy": {
+      "split_policy": "group_by_lot (if implemented) OR explicit limitation if not"
+    }
+  },
+  "pipeline": {
+    "stage0": {
+      "objective": "Inline risk score from process features",
+      "inputs": "Stage0 test/train CSVs",
+      "features": "Process + equipment",
+      "model": "XGBoost",
+      "training": "From step1 artifacts",
+      "inference": "Predicted risk score",
+      "outputs": "risk_stage0, riskscore",
+      "gating_rule": "Threshold (tau0) for selection",
+      "artifacts": [
+        "_stage0_pred*.csv",
+        "_stage0_risk_scores*.csv"
+      ]
+    },
+    "stage1": {
+      "objective": "Refined risk with additional features",
+      "inputs": "Stage1 test/train",
+      "features": "Stage0 + extra",
+      "model": "XGBoost",
+      "training": "From step1 artifacts",
+      "inference": "Risk score",
+      "outputs": "risk_stage1",
+      "gating_rule": "tau1",
+      "artifacts": [
+        "_stage1_pred*.csv",
+        "_stage1_risk_scores*.csv"
+      ]
+    },
+    "stage2a": {
+      "objective": "Final inline risk (Stage 2A)",
+      "inputs": "Stage2a test/train",
+      "features": "Multi-stage",
+      "model": "XGBoost",
+      "training": "From step1 artifacts",
+      "inference": "Combined risk",
+      "outputs": "riskscore (combined)",
+      "gating_rule": "tau2a",
+      "artifacts": [
+        "_stage2a_pred*.csv",
+        "_combined_risk_scores.csv"
+      ]
+    },
+    "stage2b_proxy": {
+      "dataset_source": "WM-811K",
+      "objective": "Wafermap pattern classification (proxy)",
+      "model": "SmallCNN",
+      "outputs": "Pattern labels, severity",
+      "why_proxy": "Different data source; no same-wafer GT",
+      "artifacts": [
+        "stage2b_results.csv",
+        "severity_scores*.csv"
+      ]
+    },
+    "stage3_proxy": {
+      "dataset_source": "Carinthia",
+      "objective": "SEM defect classification (proxy)",
+      "model": "From step3 artifacts",
+      "outputs": "Defect classes, engineer decisions",
+      "why_proxy": "Different data source; no same-wafer GT",
+      "artifacts": [
+        "stage3_results.csv",
+        "stage3_results_final.csv"
+      ]
+    },
+    "integration_proxy": {
+      "mapping_logic": "Proxy mapping between step2 and step3",
+      "plausibility_checks": "KS test on risk/severity alignment",
+      "failure_mode": "FAILED_PLAUSIBILITY if distributions differ",
+      "artifacts": [
+        "proxy_validation.json"
+      ]
+    }
+  },
+  "data": {
+    "step1_dataset": {
+      "row_count": 200,
+      "unique_lots": null,
+      "train_test_split": "200 test (sacred), 1050 train pool",
+      "selection_rate_used": 0.1,
+      "GT_availability": "yield_true on test",
+      "caveats": "Same source for test; train from same fab."
+    },
+    "proxy_datasets": [
+      {
+        "name": "WM-811K",
+        "source": "WM-811K",
+        "license_notes": null,
+        "caveats": "Different wafers from Step1."
+      },
+      {
+        "name": "Carinthia",
+        "source": "Carinthia",
+        "license_notes": null,
+        "caveats": "Different wafers from Step1."
+      }
+    ]
+  },
+  "results": {
+    "step1_core_tables": {
+      "comparison_table": [
+        {
+          "total_wafers": 200,
+          "high_risk_count": 40,
+          "low_risk_count": 160,
+          "selected_count": 20,
+          "selection_rate": 0.1,
+          "true_positive": 2,
+          "false_negative": 38,
+          "false_positive": 18,
+          "true_negative": 142,
+          "high_risk_recall": 0.05,
+          "high_risk_precision": 0.1,
+          "high_risk_f1": 0.0666666666666666,
+          "specificity": 0.8875,
+          "false_positive_rate": 0.1125,
+          "missed_high_risk": 38,
+          "n_inline": 20,
+          "n_sem": 0,
+          "total_inspections": 20,
+          "inline_cost": 3000.0,
+          "sem_cost": 0.0,
+          "total_cost": 3000.0,
+          "cost_per_catch": 1500.0,
+          "cost_per_inspection": 150.0,
+          "cost_inline_unit": 150.0,
+          "cost_sem_unit": 500.0,
+          "n_selected": 20.0,
+          "inline_rate": 0.1,
+          "n_high_risk": 40.0,
+          "delta_cost": 0.0,
+          "delta_cost_pct": 0.0,
+          "delta_recall": 0.0
+        },
+        {
+          "total_wafers": 200,
+          "high_risk_count": 40,
+          "low_risk_count": 160,
+          "selected_count": 20,
+          "selection_rate": 0.1,
+          "true_positive": 5,
+          "false_negative": 35,
+          "false_positive": 15,
+          "true_negative": 145,
+          "high_risk_recall": 0.125,
+          "high_risk_precision": 0.25,
+          "high_risk_f1": 0.1666666666666666,
+          "specificity": 0.90625,
+          "false_positive_rate": 0.09375,
+          "missed_high_risk": 35,
+          "n_inline": 20,
+          "n_sem": 0,
+          "total_inspections": 20,
+          "inline_cost": 3000.0,
+          "sem_cost": 0.0,
+          "total_cost": 3000.0,
+          "cost_per_catch": 600.0,
+          "cost_per_inspection": 150.0,
+          "cost_inline_unit": 150.0,
+          "cost_sem_unit": 500.0,
+          "n_selected": 20.0,
+          "inline_rate": 0.1,
+          "n_high_risk": 40.0,
+          "delta_cost": 0.0,
+          "delta_cost_pct": 0.0,
+          "delta_recall": 0.075
+        },
+        {
+          "total_wafers": 200,
+          "high_risk_count": 40,
+          "low_risk_count": 160,
+          "selected_count": 20,
+          "selection_rate": 0.1,
+          "true_positive": 6,
+          "false_negative": 34,
+          "false_positive": 14,
+          "true_negative": 146,
+          "high_risk_recall": 0.15,
+          "high_risk_precision": 0.3,
+          "high_risk_f1": 0.2,
+          "specificity": 0.9125,
+          "false_positive_rate": 0.0875,
+          "missed_high_risk": 34,
+          "n_inline": 20,
+          "n_sem": 0,
+          "total_inspections": 20,
+          "inline_cost": 3000.0,
+          "sem_cost": 0.0,
+          "total_cost": 3000.0,
+          "cost_per_catch": 500.0,
+          "cost_per_inspection": 150.0,
+          "cost_inline_unit": 150.0,
+          "cost_sem_unit": 500.0,
+          "n_selected": NaN,
+          "inline_rate": NaN,
+          "n_high_risk": NaN,
+          "delta_cost": 0.0,
+          "delta_cost_pct": 0.0,
+          "delta_recall": 0.0999999999999999
+        }
+      ],
+      "primary_endpoints": {
+        "recall_at_selection_rate_10pct": 0.15,
+        "normalized_cost_reduction_pct": 0.0
+      },
+      "bootstrap_CI": {
+        "primary_endpoints": [
+          "high_risk_recall_at_selection_rate_10pct",
+          "normalized_cost_per_catch_or_reduction_pct"
+        ],
+        "selection_rate": 0.1,
+        "recall_ci": {
+          "observed_baseline_recall": 0.05,
+          "observed_framework_recall": 0.15,
+          "observed_diff": 0.09999999999999999,
+          "ci_lower": 0.0,
+          "ci_upper": 0.21951219512195122,
+          "confidence_level": 0.95
+        },
+        "cost_ci": {
+          "observed_baseline_total": 3000.0,
+          "observed_framework_total": 3000.0,
+          "observed_diff": 0.0,
+          "ci_lower": -1800.0,
+          "ci_upper": 1800.0,
+          "confidence_level": 0.95,
+          "percent_reduction": 0.0
+        }
+      }
+    },
+    "cost_sensitivity": {
+      "r_sweep_table_values": [
+        {
+          "r": 1,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.05,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 10.0,
+          "dominance_flag": NaN,
+          "method": "random"
+        },
+        {
+          "r": 1,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.125,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 4.0,
+          "dominance_flag": NaN,
+          "method": "rulebased"
+        },
+        {
+          "r": 1,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.15,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 3.3333333333333335,
+          "dominance_flag": true,
+          "method": "framework"
+        },
+        {
+          "r": 2,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.05,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 10.0,
+          "dominance_flag": NaN,
+          "method": "random"
+        },
+        {
+          "r": 2,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.125,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 4.0,
+          "dominance_flag": NaN,
+          "method": "rulebased"
+        },
+        {
+          "r": 2,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.15,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 3.3333333333333335,
+          "dominance_flag": true,
+          "method": "framework"
+        },
+        {
+          "r": 3,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.05,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 10.0,
+          "dominance_flag": NaN,
+          "method": "random"
+        },
+        {
+          "r": 3,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.125,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 4.0,
+          "dominance_flag": NaN,
+          "method": "rulebased"
+        },
+        {
+          "r": 3,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.15,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 3.3333333333333335,
+          "dominance_flag": true,
+          "method": "framework"
+        },
+        {
+          "r": 5,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.05,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 10.0,
+          "dominance_flag": NaN,
+          "method": "random"
+        },
+        {
+          "r": 5,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.125,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 4.0,
+          "dominance_flag": NaN,
+          "method": "rulebased"
+        },
+        {
+          "r": 5,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.15,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 3.3333333333333335,
+          "dominance_flag": true,
+          "method": "framework"
+        },
+        {
+          "r": 7,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.05,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 10.0,
+          "dominance_flag": NaN,
+          "method": "random"
+        },
+        {
+          "r": 7,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.125,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 4.0,
+          "dominance_flag": NaN,
+          "method": "rulebased"
+        },
+        {
+          "r": 7,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.15,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 3.3333333333333335,
+          "dominance_flag": true,
+          "method": "framework"
+        },
+        {
+          "r": 10,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.05,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 10.0,
+          "dominance_flag": NaN,
+          "method": "random"
+        },
+        {
+          "r": 10,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.125,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 4.0,
+          "dominance_flag": NaN,
+          "method": "rulebased"
+        },
+        {
+          "r": 10,
+          "selection_rate": 0.1,
+          "recall_high_risk": 0.15,
+          "normalized_cost": 20.0,
+          "cost_per_catch": 3.3333333333333335,
+          "dominance_flag": true,
+          "method": "framework"
+        }
+      ],
+      "r_grid": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        10
+      ]
+    },
+    "proxy_validation": {
+      "ks_stat": 0.41,
+      "p_value": 1.99799391269964e-15,
+      "passed": false
+    }
+  },
+  "limitations": [
+    "Proven: Step1 high-risk recall and cost vs baselines on same-source test set (n=200, k=40).",
+    "Not proven: Causal effect of Step2/Step3; proxy integration is plausibility-only.",
+    "Not proven: Generalization to other fabs or time periods."
+  ],
+  "reproducibility": {
+    "exact_commands": [
+      "cd trackb/scripts",
+      "python trackb_run.py --mode from_artifacts"
+    ],
+    "config_paths": [
+      "trackb/configs/trackb_config.json"
+    ],
+    "deterministic_settings": {
+      "random_seed": 42,
+      "bootstrap_seed": 42
+    }
+  },
+  "evidence_index": [
+    {
+      "path": "agent/scheduler_log.csv",
+      "sha256": "847ccc99667c6d84e5d0ac6455e14933bb12aacdc73acaff637c9a9489088eeb",
+      "rows": 200,
+      "cols": [
+        "wafer_id",
+        "stage",
+        "wafers_remaining",
+        "budget_remaining",
+        "budget_remaining_after",
+        "budget_per_wafer",
+        "adjustment",
+        "tau_base",
+        "tau_adjusted",
+        "risk_score",
+        "decision",
+        "reason"
+      ],
+      "schema_hash": "152fb1c37d209927"
+    },
+    {
+      "path": "agent/autotune_history.csv",
+      "sha256": "024110cecb0595453ad02be241ecbe199da31d2259ff6f52d66fe5892d177ec2",
+      "rows": 125,
+      "cols": [
+        "tau0",
+        "tau1",
+        "tau2a",
+        "cost",
+        "recall",
+        "precision",
+        "f1",
+        "n_selected",
+        "tp",
+        "cost_per_catch",
+        "within_budget"
+      ],
+      "schema_hash": "18fe8784329e3a02"
+    },
+    {
+      "path": "agent/decision_trace.csv",
+      "sha256": "77a98536d914abf0ae6fc7d5ce75f822106c009c07ce8b96c33a99a59348695d",
+      "rows": 200,
+      "cols": [
+        "wafer_id",
+        "stage",
+        "decision",
+        "risk_score",
+        "threshold",
+        "scheduler_reason",
+        "confidence",
+        "top_reason_1",
+        "top_reason_2",
+        "top_reason_3"
+      ],
+      "schema_hash": "51b97efd142a68d7"
+    },
+    {
+      "path": "baselines/rulebased_results.csv",
+      "sha256": "889caf46148c784d9ccfa33dda76afeb47d50cbc1f329ae4ca6bba77c457f364",
+      "rows": 200,
+      "cols": [
+        "lot_id",
+        "wafer_id",
+        "product_type",
+        "technology_node",
+        "etch_tool",
+        "litho_tool",
+        "deposition_tool",
+        "implant_tool",
+        "pressure",
+        "temperature",
+        "exposure_time",
+        "focus_offset",
+        "dose",
+        "implant_energy",
+        "tilt_angle",
+        "yield",
+        "yield_true",
+        "yield_pred",
+        "risk_stage0",
+        "riskscore_binary",
+        "riskscore",
+        "is_high_risk",
+        "selected",
+        "cost",
+        "method"
+      ],
+      "schema_hash": "0e103f4c5a460d04"
+    },
+    {
+      "path": "baselines/random_results.csv",
+      "sha256": "d023382de8c0404e6766954cc56d5f296a994acb8d02d7eb823ed94fe54ca502",
+      "rows": 200,
+      "cols": [
+        "lot_id",
+        "wafer_id",
+        "product_type",
+        "technology_node",
+        "etch_tool",
+        "litho_tool",
+        "deposition_tool",
+        "implant_tool",
+        "pressure",
+        "temperature",
+        "exposure_time",
+        "focus_offset",
+        "dose",
+        "implant_energy",
+        "tilt_angle",
+        "yield",
+        "yield_true",
+        "yield_pred",
+        "risk_stage0",
+        "riskscore_binary",
+        "riskscore",
+        "is_high_risk",
+        "selected",
+        "cost",
+        "method"
+      ],
+      "schema_hash": "0e103f4c5a460d04"
+    },
+    {
+      "path": "baselines/comparison_table.csv",
+      "sha256": "36db375a2719c36af4144015cc1ad5351d656e041bcbe67ceeb7204cbb3da16b",
+      "rows": 9,
+      "cols": [
+        "metric",
+        "random",
+        "rulebased"
+      ],
+      "schema_hash": "893017770851e733"
+    },
+    {
+      "path": "validation/sensitivity_cost_ratio.csv",
+      "sha256": "c22a8282394c231d83fd3899189af8317f89193c897d24a60082e9ee2577dd46",
+      "rows": 18,
+      "cols": [
+        "r",
+        "selection_rate",
+        "recall_high_risk",
+        "normalized_cost",
+        "cost_per_catch",
+        "dominance_flag",
+        "method"
+      ],
+      "schema_hash": "98d98a6255b0a171"
+    },
+    {
+      "path": "validation/stage_breakdown.csv",
+      "sha256": "a9448245e10619a4795dd78bac8a5dc22e93a7b5be2853dcf66cb727d544fa1c",
+      "rows": 3,
+      "cols": [
+        "method",
+        "stage",
+        "n_selected",
+        "recall",
+        "precision",
+        "f1",
+        "cost"
+      ],
+      "schema_hash": "612abc35903ed24e"
+    },
+    {
+      "path": "validation/framework_results.csv",
+      "sha256": "16caeec8481f7c81a545973daa2b5680fd7d877061075917fbce10aeb2c26018",
+      "rows": 3,
+      "cols": [
+        "method",
+        "total_wafers",
+        "high_risk_count",
+        "low_risk_count",
+        "selected_count",
+        "selection_rate",
+        "true_positive",
+        "false_negative",
+        "false_positive",
+        "true_negative",
+        "high_risk_recall",
+        "high_risk_precision",
+        "high_risk_f1",
+        "specificity",
+        "false_positive_rate",
+        "missed_high_risk",
+        "n_inline",
+        "n_sem",
+        "total_inspections",
+        "inline_cost",
+        "sem_cost",
+        "total_cost",
+        "cost_per_catch",
+        "cost_per_inspection",
+        "cost_inline_unit",
+        "cost_sem_unit",
+        "n_selected",
+        "inline_rate",
+        "n_high_risk",
+        "delta_cost",
+        "delta_cost_pct",
+        "delta_recall"
+      ],
+      "schema_hash": "ccb3157151d575f3"
+    },
+    {
+      "path": "agent/autotune_summary.json",
+      "sha256": "d2911aeff153e789bb28928fe38f9327c582d22b2fa982d0d777a56683377d3b",
+      "rows": null,
+      "cols": null,
+      "schema_hash": null
+    },
+    {
+      "path": "validation/statistical_tests.json",
+      "sha256": "11e95180f18e99f172ae61d455f74983097b8cbdd083d46b5e38413270bed7f7",
+      "rows": null,
+      "cols": null,
+      "schema_hash": null
+    },
+    {
+      "path": "validation/high_risk_definition.json",
+      "sha256": "a75409885625a8d316315c52a101a358b4af2932f01a906aba8caff6b16c5bc8",
+      "rows": null,
+      "cols": null,
+      "schema_hash": null
+    },
+    {
+      "path": "validation/proxy_validation.json",
+      "sha256": "19951f0ed83c241a5cc8a054769a52db9711aac0e14b766284ae3a01d18eb261",
+      "rows": null,
+      "cols": null,
+      "schema_hash": null
+    },
+    {
+      "path": "validation/sensitivity_cost_ratio.json",
+      "sha256": "6afd96094b3b557ce165a6c5337e6665819445473a5b6eba34dc4db77aac113e",
+      "rows": null,
+      "cols": null,
+      "schema_hash": null
+    },
+    {
+      "path": "validation/bootstrap_primary_ci.json",
+      "sha256": "2abee8059426b916934c6a5ac15fba323655a1af56fa75e1d37f6c84e9b1de7e",
+      "rows": null,
+      "cols": null,
+      "schema_hash": null
+    },
+    {
+      "path": "_manifest.json",
+      "sha256": "041c517a29511ba37acc69eabf64d514f14b33523b6e74607a598a170b69ed09",
+      "rows": null,
+      "cols": null,
+      "schema_hash": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "n_seeds": 50,
+  "n_test_wafers": 200,
+  "n_high_risk": 40,
+  "selection_rate": 0.1,
+  "n_selected_per_run": 20,
+  "recall_mean": 0.1015,
+  "recall_std": 0.04483581157958446,
+  "recall_p5": 0.036250000000000004,
+  "recall_p50": 0.1,
+  "recall_p95": 0.16374999999999992
+}

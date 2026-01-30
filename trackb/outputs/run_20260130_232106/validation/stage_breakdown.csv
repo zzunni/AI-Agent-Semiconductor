@@ -1,0 +1,4 @@
+﻿method,stage,n_selected,recall,precision,f1,cost
+random,all,20,0.05,0.1,0.06666666666666667,3000.0
+rulebased,all,20,0.125,0.25,0.16666666666666666,3000.0
+framework,all,20,0.15,0.3,0.2,3000.0

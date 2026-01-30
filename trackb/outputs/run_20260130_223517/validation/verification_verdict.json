@@ -1,0 +1,15 @@
+{
+  "verdict": "FAIL",
+  "failures": [
+    "Cost policy violated: '$' found in trackB_report_core_validated.md",
+    "Core report must not contain proxy content: 'step2' in trackB_report_core_validated.md",
+    "Core report must not contain proxy content: 'step3' in trackB_report_core_validated.md",
+    "Core report must not contain proxy content: 'sem' in trackB_report_core_validated.md"
+  ],
+  "warnings": [
+    "Proxy validation FAILED (warn_only policy): KS=0.41, p=1.99799391269964e-15. Report must highlight this prominently."
+  ],
+  "run_id": "20260130_223517",
+  "timestamp": "2026-01-30T22:35:24.677938",
+  "config_sha256": null
+}

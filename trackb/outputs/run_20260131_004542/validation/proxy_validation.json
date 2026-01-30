@@ -1,0 +1,31 @@
+{
+  "proxy_type": "risk_to_severity",
+  "method": "linear_scaling",
+  "scaling_factor": 1.2,
+  "test": "kolmogorov_smirnov_2sample",
+  "alpha": 0.05,
+  "ks_statistic": 0.41,
+  "p_value": 1.99799391269964e-15,
+  "distributions_similar": false,
+  "proxy_status": "FAILED_PLAUSIBILITY",
+  "interpretation": "different",
+  "policy": "warn_only",
+  "step1_risk_stats": {
+    "mean": 0.40197939813000005,
+    "std": 0.18029715441689823,
+    "min": 0.023260973333333268,
+    "max": 0.7482876159999999,
+    "n": 200
+  },
+  "step2_severity_stats": {
+    "mean": 0.4823752777559999,
+    "std": 0.21635658530027788,
+    "min": 0.027913167999999922,
+    "max": 0.8979451391999999,
+    "n": 200
+  },
+  "normalization": "clipped to [0,1]",
+  "caveat": "Plausibility-checked only, NOT causally validated",
+  "limitation": "Different data sources, no same-wafer measurement available",
+  "validation_status": "proxy_based_plausibility_check"
+}

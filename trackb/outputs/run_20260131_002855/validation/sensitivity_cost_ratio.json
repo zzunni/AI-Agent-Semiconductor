@@ -1,0 +1,192 @@
+{
+  "r_grid": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10
+  ],
+  "rows": [
+    {
+      "r": 1,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.05,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 10.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "random"
+    },
+    {
+      "r": 1,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.125,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 4.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "rulebased"
+    },
+    {
+      "r": 1,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.15,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 3.3333333333333335,
+      "dominance_flag": true,
+      "dominance_type": "recall_dominance",
+      "method": "framework"
+    },
+    {
+      "r": 2,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.05,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 10.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "random"
+    },
+    {
+      "r": 2,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.125,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 4.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "rulebased"
+    },
+    {
+      "r": 2,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.15,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 3.3333333333333335,
+      "dominance_flag": true,
+      "dominance_type": "recall_dominance",
+      "method": "framework"
+    },
+    {
+      "r": 3,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.05,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 10.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "random"
+    },
+    {
+      "r": 3,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.125,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 4.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "rulebased"
+    },
+    {
+      "r": 3,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.15,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 3.3333333333333335,
+      "dominance_flag": true,
+      "dominance_type": "recall_dominance",
+      "method": "framework"
+    },
+    {
+      "r": 5,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.05,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 10.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "random"
+    },
+    {
+      "r": 5,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.125,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 4.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "rulebased"
+    },
+    {
+      "r": 5,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.15,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 3.3333333333333335,
+      "dominance_flag": true,
+      "dominance_type": "recall_dominance",
+      "method": "framework"
+    },
+    {
+      "r": 7,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.05,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 10.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "random"
+    },
+    {
+      "r": 7,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.125,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 4.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "rulebased"
+    },
+    {
+      "r": 7,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.15,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 3.3333333333333335,
+      "dominance_flag": true,
+      "dominance_type": "recall_dominance",
+      "method": "framework"
+    },
+    {
+      "r": 10,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.05,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 10.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "random"
+    },
+    {
+      "r": 10,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.125,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 4.0,
+      "dominance_flag": null,
+      "dominance_type": null,
+      "method": "rulebased"
+    },
+    {
+      "r": 10,
+      "selection_rate": 0.1,
+      "recall_high_risk": 0.15,
+      "normalized_cost": 20.0,
+      "cost_per_catch": 3.3333333333333335,
+      "dominance_flag": true,
+      "dominance_type": "recall_dominance",
+      "method": "framework"
+    }
+  ]
+}

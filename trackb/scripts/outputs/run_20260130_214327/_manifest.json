@@ -1,0 +1,636 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-01-30T21:43:27.547418",
+  "inputs": [
+    {
+      "path": "../../data/step1/_stage0_pred 오후 1.17.11.csv",
+      "sha256": "fd9d6c0e35d690c0bfe27c8fcd303a6bc58dadb88035e2269222eb6c4bef293a",
+      "size_bytes": 36213,
+      "mtime": "2026-01-30T13:14:42.594896"
+    },
+    {
+      "path": "../../data/step1/stage0_data 오후 1.17.11.csv",
+      "sha256": "6f8f2edc9aae5f58835b4c4f5615c45d787729c86531e65e2e77c858d9d225d3",
+      "size_bytes": 185153,
+      "mtime": "2026-01-30T13:14:24.473852"
+    },
+    {
+      "path": "../../data/step1/전체데이터.csv",
+      "sha256": "3a16af47793b6daf10ba435fc3654adcf63629c81016bc9b0d1945ae4d86e5d9",
+      "size_bytes": 513272,
+      "mtime": "2026-01-30T13:14:20.729182"
+    },
+    {
+      "path": "../../data/step1/_stage0_risk_scores_sample.csv",
+      "sha256": "be6e69d91f26b7cb81aa26a39393ebeebe95690ce3ea5ea640c364dbb7d11616",
+      "size_bytes": 40139,
+      "mtime": "2026-01-30T13:14:47.207838"
+    },
+    {
+      "path": "../../data/step1/stage2a_data 오후 1.17.11.csv",
+      "sha256": "a9b922c8785674bc6329fb7fa60ca3ae273fbb9ecd756d4fd1cd0bd434c9b303",
+      "size_bytes": 259556,
+      "mtime": "2026-01-30T13:15:52.094131"
+    },
+    {
+      "path": "../../data/step1/_stage1_risk_scores_sample.csv",
+      "sha256": "1b43f932d0cca0e096d19de85f69c44024167cee2d408699cbe2bee041ac4008",
+      "size_bytes": 47353,
+      "mtime": "2026-01-30T13:15:28.255728"
+    },
+    {
+      "path": "../../data/step1/_stage1_test 오후 1.17.11.csv",
+      "sha256": "e6edbeb99606681288c0a44c3ad5460e4686ba54c4f515e04365089588a2691c",
+      "size_bytes": 38891,
+      "mtime": "2026-01-30T13:15:15.295275"
+    },
+    {
+      "path": "../../data/step1/_stage2a_train.csv",
+      "sha256": "85be0d900577b00595c33937e0628267eba63195d6bc627d328107aef0b0260b",
+      "size_bytes": 228046,
+      "mtime": "2026-01-30T13:15:55.155733"
+    },
+    {
+      "path": "../../data/step1/_stage2a_test 오후 1.17.11.csv",
+      "sha256": "53bc5efd38b373a91713b73a1610114baaec7709a5ed5ffa88042811dc7074bc",
+      "size_bytes": 43674,
+      "mtime": "2026-01-30T13:15:56.905914"
+    },
+    {
+      "path": "../../data/step1/_stage2a_error_slices.csv",
+      "sha256": "1839fe9b40761cc92aa4b469378a917da59edabd751ec1fa06f9885995d887e1",
+      "size_bytes": 3217,
+      "mtime": "2026-01-30T13:16:16.525900"
+    },
+    {
+      "path": "../../data/step1/stage1_data 오후 1.17.11.csv",
+      "sha256": "6ab8713d038cfaad98c01b6676eb817aa45c923457a7e3a7d1b2de7cc611ccae",
+      "size_bytes": 229787,
+      "mtime": "2026-01-30T13:15:09.562913"
+    },
+    {
+      "path": "../../data/step1/_stage1_train.csv",
+      "sha256": "f0a4f60772324bc2d8e916a98e7a72ac28bb8936ab6c4d4b8c3fa276c3f2b69a",
+      "size_bytes": 203034,
+      "mtime": "2026-01-30T13:15:13.733178"
+    },
+    {
+      "path": "../../data/step1/_stage2a_pred.csv",
+      "sha256": "9eba2b92ae56802c8434a48ec0f8ed157d3746b951696091c86e982467da3195",
+      "size_bytes": 48181,
+      "mtime": "2026-01-30T13:16:07.886885"
+    },
+    {
+      "path": "../../data/step1/_stage0_train 오후 1.17.11.csv",
+      "sha256": "b93e3ed2cd66a70e4c604d03ca8cc13edc64519e77d27f89537317a0bbea26af",
+      "size_bytes": 165531,
+      "mtime": "2026-01-30T13:14:28.019797"
+    },
+    {
+      "path": "../../data/step1/_combined_risk_scores.csv",
+      "sha256": "99749aaae4c33bc086c5dc3de7068d4dbf620c0230ed87335c624f59428313e8",
+      "size_bytes": 25505,
+      "mtime": "2026-01-30T18:16:34.280131"
+    },
+    {
+      "path": "../../data/step1/_stage0_error_slices.csv",
+      "sha256": "4634f696d7de634c7d86ffd04bdb8cb8c9123585e3d545255c11feeba31089b4",
+      "size_bytes": 3179,
+      "mtime": "2026-01-30T13:14:54.416399"
+    },
+    {
+      "path": "../../data/step1/_stage2a_risk_scores_sample.csv",
+      "sha256": "65a5c2018da1123fe11ea34fc2dc02d755cf578cea52c94bf530fb05cfe33a6b",
+      "size_bytes": 52500,
+      "mtime": "2026-01-30T13:16:11.801061"
+    },
+    {
+      "path": "../../data/step1/_stage0_risk_instance_reasons_numeric.csv",
+      "sha256": "b706d3a15ea2caac9f7324fe1d464e10daa4b798eea9afe541e175251288d80b",
+      "size_bytes": 44220,
+      "mtime": "2026-01-30T13:14:58.847984"
+    },
+    {
+      "path": "../../data/step1/_stage0_test 오후 1.17.11.csv",
+      "sha256": "f45560421d11b8b5853d4789209a74285d926bdd95619812675989e323f1d8eb",
+      "size_bytes": 31704,
+      "mtime": "2026-01-30T13:14:30.954257"
+    },
+    {
+      "path": "../../data/step1/_stage2a_risk_instance_reasons_numeric.csv",
+      "sha256": "7bc29e3119c236b381f6961776ef7846f6a21a62aee9056c9ebb9deee2932369",
+      "size_bytes": 44693,
+      "mtime": "2026-01-30T13:16:20.154042"
+    },
+    {
+      "path": "../../data/step1/_stage1_error_slices.csv",
+      "sha256": "e4a5a4fd628484ca1233c85d40c430e83019c379f41c76b4ea949cae01fd0e8c",
+      "size_bytes": 3222,
+      "mtime": "2026-01-30T13:15:34.748753"
+    },
+    {
+      "path": "../../data/step1/_stage1_pred.csv",
+      "sha256": "3c460ba0461ee6e65d7165e6f22e4e781a52a070d8ca4b701ed8f988d6b8c5de",
+      "size_bytes": 43405,
+      "mtime": "2026-01-30T13:15:25.119888"
+    },
+    {
+      "path": "../../data/step1/_stage1_risk_instance_reasons_numeric.csv",
+      "sha256": "b197a9c9c646187d331b155747d010a0b28d5fbdab33b8587f0060fe5f29db83",
+      "size_bytes": 44781,
+      "mtime": "2026-01-30T13:15:37.987793"
+    },
+    {
+      "path": "../../data/step2/train_meta.csv",
+      "sha256": "2b096deb9adfb3683773dcac97939c8b8a66b617901bd77a8740b0a5e6a47192",
+      "size_bytes": 2956313,
+      "mtime": "2026-01-29T21:22:16"
+    },
+    {
+      "path": "../../data/step2/top5pct_candidates_all.csv",
+      "sha256": "6096347b80a4900b7132ac47a7440be060270c7bce87a850ba6a1fb718311f35",
+      "size_bytes": 1204421,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/test_meta.csv",
+      "sha256": "5e2e9210091a21766c320b79983a215644a299cdbbcf5bc9fbc84dfe609291d8",
+      "size_bytes": 369687,
+      "mtime": "2026-01-29T21:22:16"
+    },
+    {
+      "path": "../../data/step2/val_meta.csv",
+      "sha256": "802fe63d67d8f045c58cfaf9b18ac386058cd181442919c11117a5b612405de9",
+      "size_bytes": 369518,
+      "mtime": "2026-01-29T21:22:16"
+    },
+    {
+      "path": "../../data/step2/test_confusion_matrix.csv",
+      "sha256": "f9c1420a97cc14979033ccccfa3a86ffa42420a4a2a96b86bfc02a7403a9450a",
+      "size_bytes": 539,
+      "mtime": "2026-01-29T21:37:02"
+    },
+    {
+      "path": "../../data/step2/stage2b_results.csv",
+      "sha256": "334df83d0d6459e15822c1480615cec5f94765fb70f2620b069e455d1570ec5a",
+      "size_bytes": 5659862,
+      "mtime": "2026-01-29T21:38:34"
+    },
+    {
+      "path": "../../data/step2/sem_send_top10pct.csv",
+      "sha256": "85d59e435d7cab99774adf1ef01d571af76338aecdf42c9ddd8891ecdcb6c73f",
+      "size_bytes": 3362931,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/severity_scores_all.csv",
+      "sha256": "6fb19c22a4453989f687e6364953e1352b44cbf46bf6b6a7cff30dff45594c0f",
+      "size_bytes": 23998362,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/sem_candidates_top5pct.csv",
+      "sha256": "9b649ebde09dba03b877ee925be6f7bd57e6d3c6840543d488fcd4de6598e4bd",
+      "size_bytes": 1204421,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/top10pct_candidates_all.csv",
+      "sha256": "aa690f843f83cbfe101c960ae3795b9fadfc7c6697d9d740efb49b85675e7e8d",
+      "size_bytes": 2419600,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/sem_candidates_top10pct.csv",
+      "sha256": "16e057b82f70410bd611fb4a88c945f3ca1788fcba74339383b18a02d433cafa",
+      "size_bytes": 2419600,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/sem_send_top5pct.csv",
+      "sha256": "03c83932aa18898c4b0c8f2d423708c9437bd0989495194b5c61217bfb6d5a08",
+      "size_bytes": 1686667,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/severity_scores_test.csv",
+      "sha256": "f9c4369c8260d94d1bf242e340c4ca6611f500f9302331d07a45eef15bc8ae2f",
+      "size_bytes": 2402391,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/test_classification_report.csv",
+      "sha256": "bdfce310d5e5a88dc9d1b8f3ea5366ae13cb7255aef0145a845d536cbe3f7866",
+      "size_bytes": 930,
+      "mtime": "2026-01-29T21:37:02"
+    },
+    {
+      "path": "../../data/step2/physical_damage_scratch_top10pct.csv",
+      "sha256": "abef5c9c8cfb3947fe6737db1634920c9bb464b76d51fec209bcd328a998def9",
+      "size_bytes": 174,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step2/confusion_matrix_test.csv",
+      "sha256": "f9c1420a97cc14979033ccccfa3a86ffa42420a4a2a96b86bfc02a7403a9450a",
+      "size_bytes": 539,
+      "mtime": "2026-01-29T21:37:02"
+    },
+    {
+      "path": "../../data/step2/predictions_test.csv",
+      "sha256": "5b774e3bee7603302f9edd483150f9d1027fc539fda3322a3c794cfc6526227f",
+      "size_bytes": 1237274,
+      "mtime": "2026-01-29T21:37:02"
+    },
+    {
+      "path": "../../data/step2/physical_damage_scratch_top5pct.csv",
+      "sha256": "abef5c9c8cfb3947fe6737db1634920c9bb464b76d51fec209bcd328a998def9",
+      "size_bytes": 174,
+      "mtime": "2026-01-29T21:38:32"
+    },
+    {
+      "path": "../../data/step3/stage3_results.csv",
+      "sha256": "d09d59ba885480a099ffce83bccbd2e96c7e727371fa450b9a089c569c9b55c6",
+      "size_bytes": 83281,
+      "mtime": "2026-01-30T13:10:09.960283"
+    },
+    {
+      "path": "../../data/step3/engineer_decisions.csv",
+      "sha256": "bb7ff13a39382fbe8f8273e905450fd897dc6ca435a959bbe3ee0015058286c1",
+      "size_bytes": 86500,
+      "mtime": "2026-01-30T13:10:25.498475"
+    },
+    {
+      "path": "../../data/step3/stage3_results_final.csv",
+      "sha256": "6e8181de82b3cb6fdccb52a4dbcf7c163345cc320711295b50ad60f11da3b633",
+      "size_bytes": 103922,
+      "mtime": "2026-01-30T13:10:12.430234"
+    },
+    {
+      "path": "../../data/step3/efficiency_table.csv",
+      "sha256": "36e1b47014b4a89e9bdf18b7dca648d1c8913dfc0b7d81218b12ff70eb3e5bc8",
+      "size_bytes": 261,
+      "mtime": "2026-01-30T13:10:22.648947"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "outputs/run_20260130_214327/agent/scheduler_log.csv",
+      "sha256": "847ccc99667c6d84e5d0ac6455e14933bb12aacdc73acaff637c9a9489088eeb",
+      "size_bytes": 22124,
+      "mtime": "2026-01-30T21:43:27.287415",
+      "row_count": 200,
+      "columns": [
+        "wafer_id",
+        "stage",
+        "wafers_remaining",
+        "budget_remaining",
+        "budget_remaining_after",
+        "budget_per_wafer",
+        "adjustment",
+        "tau_base",
+        "tau_adjusted",
+        "risk_score",
+        "decision",
+        "reason"
+      ]
+    },
+    {
+      "path": "outputs/run_20260130_214327/agent/autotune_history.csv",
+      "sha256": "024110cecb0595453ad02be241ecbe199da31d2259ff6f52d66fe5892d177ec2",
+      "size_bytes": 10326,
+      "mtime": "2026-01-30T21:43:27.276441",
+      "row_count": 125,
+      "columns": [
+        "tau0",
+        "tau1",
+        "tau2a",
+        "cost",
+        "recall",
+        "precision",
+        "f1",
+        "n_selected",
+        "tp",
+        "cost_per_catch",
+        "within_budget"
+      ]
+    },
+    {
+      "path": "outputs/run_20260130_214327/agent/decision_trace.csv",
+      "sha256": "77a98536d914abf0ae6fc7d5ce75f822106c009c07ce8b96c33a99a59348695d",
+      "size_bytes": 13050,
+      "mtime": "2026-01-30T21:43:27.294782",
+      "row_count": 200,
+      "columns": [
+        "wafer_id",
+        "stage",
+        "decision",
+        "risk_score",
+        "threshold",
+        "scheduler_reason",
+        "confidence",
+        "top_reason_1",
+        "top_reason_2",
+        "top_reason_3"
+      ]
+    },
+    {
+      "path": "outputs/run_20260130_214327/baselines/rulebased_results.csv",
+      "sha256": "889caf46148c784d9ccfa33dda76afeb47d50cbc1f329ae4ca6bba77c457f364",
+      "size_bytes": 48318,
+      "mtime": "2026-01-30T21:43:27.256848",
+      "row_count": 200,
+      "columns": [
+        "lot_id",
+        "wafer_id",
+        "product_type",
+        "technology_node",
+        "etch_tool",
+        "litho_tool",
+        "deposition_tool",
+        "implant_tool",
+        "pressure",
+        "temperature",
+        "exposure_time",
+        "focus_offset",
+        "dose",
+        "implant_energy",
+        "tilt_angle",
+        "yield",
+        "yield_true",
+        "yield_pred",
+        "risk_stage0",
+        "riskscore_binary",
+        "riskscore",
+        "is_high_risk",
+        "selected",
+        "cost",
+        "method"
+      ]
+    },
+    {
+      "path": "outputs/run_20260130_214327/baselines/random_results.csv",
+      "sha256": "d023382de8c0404e6766954cc56d5f296a994acb8d02d7eb823ed94fe54ca502",
+      "size_bytes": 47718,
+      "mtime": "2026-01-30T21:43:27.253522",
+      "row_count": 200,
+      "columns": [
+        "lot_id",
+        "wafer_id",
+        "product_type",
+        "technology_node",
+        "etch_tool",
+        "litho_tool",
+        "deposition_tool",
+        "implant_tool",
+        "pressure",
+        "temperature",
+        "exposure_time",
+        "focus_offset",
+        "dose",
+        "implant_energy",
+        "tilt_angle",
+        "yield",
+        "yield_true",
+        "yield_pred",
+        "risk_stage0",
+        "riskscore_binary",
+        "riskscore",
+        "is_high_risk",
+        "selected",
+        "cost",
+        "method"
+      ]
+    },
+    {
+      "path": "outputs/run_20260130_214327/baselines/comparison_table.csv",
+      "sha256": "36db375a2719c36af4144015cc1ad5351d656e041bcbe67ceeb7204cbb3da16b",
+      "size_bytes": 293,
+      "mtime": "2026-01-30T21:43:27.257781",
+      "row_count": 9,
+      "columns": [
+        "metric",
+        "random",
+        "rulebased"
+      ]
+    },
+    {
+      "path": "outputs/run_20260130_214327/validation/stage_breakdown.csv",
+      "sha256": "a9448245e10619a4795dd78bac8a5dc22e93a7b5be2853dcf66cb727d544fa1c",
+      "size_bytes": 194,
+      "mtime": "2026-01-30T21:43:27.544654",
+      "row_count": 3,
+      "columns": [
+        "method",
+        "stage",
+        "n_selected",
+        "recall",
+        "precision",
+        "f1",
+        "cost"
+      ]
+    },
+    {
+      "path": "outputs/run_20260130_214327/validation/framework_results.csv",
+      "sha256": "16caeec8481f7c81a545973daa2b5680fd7d877061075917fbce10aeb2c26018",
+      "size_bytes": 925,
+      "mtime": "2026-01-30T21:43:27.541859",
+      "row_count": 3,
+      "columns": [
+        "method",
+        "total_wafers",
+        "high_risk_count",
+        "low_risk_count",
+        "selected_count",
+        "selection_rate",
+        "true_positive",
+        "false_negative",
+        "false_positive",
+        "true_negative",
+        "high_risk_recall",
+        "high_risk_precision",
+        "high_risk_f1",
+        "specificity",
+        "false_positive_rate",
+        "missed_high_risk",
+        "n_inline",
+        "n_sem",
+        "total_inspections",
+        "inline_cost",
+        "sem_cost",
+        "total_cost",
+        "cost_per_catch",
+        "cost_per_inspection",
+        "cost_inline_unit",
+        "cost_sem_unit",
+        "n_selected",
+        "inline_rate",
+        "n_high_risk",
+        "delta_cost",
+        "delta_cost_pct",
+        "delta_recall"
+      ]
+    },
+    {
+      "path": "outputs/run_20260130_214327/agent/autotune_summary.json",
+      "sha256": "d2911aeff153e789bb28928fe38f9327c582d22b2fa982d0d777a56683377d3b",
+      "size_bytes": 806,
+      "mtime": "2026-01-30T21:43:27.275053"
+    },
+    {
+      "path": "outputs/run_20260130_214327/validation/statistical_tests.json",
+      "sha256": "8d9dff721529398caef02be8debff9063f1871361947c73c3f2ba85ba5d37204",
+      "size_bytes": 2151,
+      "mtime": "2026-01-30T21:43:27.538675"
+    },
+    {
+      "path": "outputs/run_20260130_214327/validation/high_risk_definition.json",
+      "sha256": "37f5cb93aa148a1fa0bb03f08eac603c56549891d8f0acfb875d724df5666fb5",
+      "size_bytes": 367,
+      "mtime": "2026-01-30T21:43:27.248129"
+    },
+    {
+      "path": "outputs/run_20260130_214327/validation/proxy_validation.json",
+      "sha256": "19951f0ed83c241a5cc8a054769a52db9711aac0e14b766284ae3a01d18eb261",
+      "size_bytes": 927,
+      "mtime": "2026-01-30T21:43:27.543381"
+    }
+  ],
+  "config_snapshot": {
+    "version": "2.0.0",
+    "mode": "from_artifacts",
+    "random_seed": 42,
+    "paths": {
+      "data_root": "../../data/",
+      "step1_artifacts": "../../data/step1/",
+      "step2_artifacts": "../../data/step2/",
+      "step3_artifacts": "../../data/step3/",
+      "trackb_root": "./",
+      "trackb_outputs": "./outputs/",
+      "trackb_reports": "./outputs/reports/",
+      "trackb_figures": "./outputs/figures/"
+    },
+    "data": {
+      "test_size": 200,
+      "training_pool_size": 1050,
+      "total_wafers": 1252,
+      "high_risk_quantile": 0.2,
+      "high_risk_method": "bottom_quantile_fixed_k",
+      "high_risk_tie_breaker": "wafer_id"
+    },
+    "baselines": {
+      "random": {
+        "rate": 0.1,
+        "seed": 42,
+        "n_runs": 1
+      },
+      "rulebased": {
+        "rate": 0.1,
+        "risk_column": "riskscore",
+        "selection_method": "top_k_percent"
+      }
+    },
+    "agent": {
+      "enable_optimizer": true,
+      "enable_scheduler": true,
+      "enable_explainer": true,
+      "budget_total": 3000,
+      "budget_per_wafer_inline": 150,
+      "budget_per_wafer_sem": 500,
+      "threshold_search_space": [
+        0.85,
+        0.88,
+        0.9,
+        0.92,
+        0.95
+      ],
+      "use_percentile_threshold": true,
+      "target_selection_rate": 0.1,
+      "target_metric": "recall",
+      "split_strategy": "stratified_80_20",
+      "fit_training_fraction": 0.8
+    },
+    "validation": {
+      "alpha": 0.05,
+      "proxy_validation_policy": "warn_only",
+      "significance_policy": "primary_endpoints_only",
+      "primary_endpoints": [
+        "high_risk_recall",
+        "cost_per_catch"
+      ],
+      "enforce_manifest": true,
+      "enforce_no_leakage": true,
+      "report_lint_forbidden_phrases": true,
+      "report_number_spotcheck_count": 5,
+      "bootstrap": {
+        "n_boot": 10000,
+        "alpha": 0.05,
+        "seed": 42
+      },
+      "forbidden_phrases": [
+        "validated end-to-end",
+        "causally linked",
+        "ground truth confirmed for step2",
+        "ground truth confirmed for step3"
+      ]
+    },
+    "file_patterns": {
+      "step1": {
+        "test_files": "../data/step1/_stage*_test*.csv",
+        "pred_files": "../data/step1/_stage*_pred*.csv",
+        "train_files": "../data/step1/_stage*_train*.csv",
+        "risk_scores": "../data/step1/_stage*_risk_scores*.csv",
+        "combined_risk": "../data/step1/_combined_risk_scores.csv",
+        "models": "../data/step1/stage*_xgb.json",
+        "encoders": "../data/step1/stage*_label_encoders.pkl*",
+        "feature_cols": "../data/step1/stage*_feature_cols.pkl*",
+        "data": "../data/step1/stage*_data*.csv"
+      },
+      "step2": {
+        "model": "../data/step2/wm_cnn_best.pt",
+        "dataset": "../data/step2/LSWMD.pkl",
+        "test_summary": "../data/step2/test_accuracy_summary.json",
+        "test_report": "../data/step2/test_classification_report.csv",
+        "test_cm": "../data/step2/test_confusion_matrix.csv",
+        "severity": "../data/step2/severity_scores_all.csv",
+        "stage2b_results": "../data/step2/stage2b_results.csv",
+        "sem_send": "../data/step2/sem_send_top10pct.csv"
+      },
+      "step3": {
+        "results": "../data/step3/stage3_results.csv",
+        "results_final": "../data/step3/stage3_results_final.csv",
+        "efficiency": "../data/step3/efficiency_summary.json",
+        "decisions": "../data/step3/engineer_decisions.csv"
+      }
+    },
+    "output_requirements": {
+      "required_files": [
+        "baselines/random_results.csv",
+        "baselines/rulebased_results.csv",
+        "baselines/comparison_table.csv",
+        "validation/framework_results.csv",
+        "validation/stage_breakdown.csv",
+        "validation/statistical_tests.json",
+        "validation/proxy_validation.json",
+        "validation/verification_verdict.json",
+        "agent/autotune_summary.json",
+        "agent/autotune_history.csv",
+        "agent/scheduler_log.csv",
+        "agent/decision_trace.csv",
+        "reports/trackB_report.md",
+        "reports/executive_summary.md",
+        "reports/SPEC_COMPLIANCE.md",
+        "reports/PIPELINE_IO_TRACE.md",
+        "reports/verification_audit.md",
+        "reports/verification_evidence_index.md",
+        "_manifest.json",
+        "trackb_run.log"
+      ],
+      "optional_files": [
+        "figures/"
+      ]
+    },
+    "run_id": "20260130_214327",
+    "run_timestamp": "2026-01-30T21:43:27.165409"
+  }
+}

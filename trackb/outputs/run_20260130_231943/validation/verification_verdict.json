@@ -1,0 +1,10 @@
+{
+  "verdict": "PASS",
+  "failures": [],
+  "warnings": [
+    "Proxy validation FAILED (warn_only policy): KS=0.41, p=1.99799391269964e-15. Report must highlight this prominently."
+  ],
+  "run_id": "20260130_231943",
+  "timestamp": "2026-01-30T23:21:00.366044",
+  "config_sha256": null
+}

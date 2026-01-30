@@ -1,0 +1,13 @@
+{
+  "method": "bottom_quantile_fixed_k",
+  "quantile": 0.2,
+  "N": 200,
+  "k": 40,
+  "actual_rate": 0.2,
+  "threshold_yield_at_k": 0.292968536,
+  "threshold_yield_next": 0.30328669,
+  "tie_breaker": "wafer_id_ascending",
+  "yield_col": "yield_true",
+  "source_data_hash": "f2c98c0cebea0483da990fefbc4de799228b29d5dd89894ad380ca0671581cc5",
+  "source_row_count": 200
+}

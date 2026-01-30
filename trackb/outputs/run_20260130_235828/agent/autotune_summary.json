@@ -1,0 +1,44 @@
+{
+  "method": "grid_search",
+  "search_space": {
+    "tau0": [
+      0.85,
+      0.88,
+      0.9,
+      0.92,
+      0.95
+    ],
+    "tau1": [
+      0.85,
+      0.88,
+      0.9,
+      0.92,
+      0.95
+    ],
+    "tau2a": [
+      0.85,
+      0.88,
+      0.9,
+      0.92,
+      0.95
+    ]
+  },
+  "budget_constraint": 3000,
+  "target_metric": "recall",
+  "best_config": {
+    "tau0": 0.85,
+    "tau1": 0.85,
+    "tau2a": 0.92
+  },
+  "best_score": 0.10429447852760736,
+  "validation_cost": 2550.0,
+  "iterations_evaluated": 125,
+  "within_budget_count": 98,
+  "training_pool_size": 1050,
+  "fit_training_size": 840,
+  "optimization_validation_size": 210,
+  "split_strategy": "stratified_80_20",
+  "validation_set_source": "from_training_pool",
+  "test_set_size": 200,
+  "test_set_used_for_optimization": false
+}

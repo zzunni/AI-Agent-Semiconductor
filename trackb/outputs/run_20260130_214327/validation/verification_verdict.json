@@ -1,0 +1,29 @@
+{
+  "verdict": "FAIL",
+  "failures": [
+    "MISSING: baselines/random_results.csv",
+    "MISSING: baselines/rulebased_results.csv",
+    "MISSING: baselines/comparison_table.csv",
+    "MISSING: agent/autotune_summary.json",
+    "MISSING: agent/autotune_history.csv",
+    "MISSING: agent/scheduler_log.csv",
+    "MISSING: agent/decision_trace.csv",
+    "MISSING: agent/agent_report.md",
+    "MISSING: validation/framework_results.csv",
+    "MISSING: validation/stage_breakdown.csv",
+    "MISSING: validation/statistical_tests.json",
+    "MISSING: validation/proxy_validation.json",
+    "MISSING: validation/validation_report.md",
+    "MISSING: reports/executive_summary.md",
+    "MISSING: reports/methodology.md",
+    "MISSING: reports/results_detailed.md",
+    "MISSING: reports/limitations.md",
+    "MISSING: _manifest.json",
+    "CRITICAL: proxy_validation.json does not exist",
+    "high_risk_definition.json not found"
+  ],
+  "warnings": [],
+  "run_id": "20260130_214327",
+  "timestamp": "2026-01-30T21:43:35.585906",
+  "config_sha256": null
+}

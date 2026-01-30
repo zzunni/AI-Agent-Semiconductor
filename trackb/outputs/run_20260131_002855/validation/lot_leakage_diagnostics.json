@@ -1,0 +1,23 @@
+{
+  "diagnostics_available": true,
+  "source_test_file": "baselines/random_results.csv",
+  "n_test_wafers": 200,
+  "n_test_lots": 49,
+  "test_lot_size_min": 1,
+  "test_lot_size_median": 4.0,
+  "test_lot_size_max": 8,
+  "yield_by_lot_mean_of_means": 0.45597579656404275,
+  "yield_by_lot_std_of_means": 0.1545115336339666,
+  "yield_by_lot_iqr": [
+    0.331620777,
+    0.3897895765714286,
+    0.61401220375
+  ],
+  "high_risk_rate_by_lot_min": 0.0,
+  "high_risk_rate_by_lot_median": 0.2,
+  "high_risk_rate_by_lot_max": 0.6666666666666666,
+  "train_lots_available": false,
+  "n_train_lots": null,
+  "overlap_lots_count": null,
+  "overlap_wafers_count": null
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "20260130_235828",
+  "created_at": "2026-01-30T23:58:29.044440",
+  "verdict": "READY_WITH_LIMITATIONS",
+  "verdict_reason": "Proxy validation FAILED; Core separated and policy enforced",
+  "Q1_recall_improvement": {
+    "question": "고위험 웨이퍼를 더 잘 잡는가? (Recall@10% 개선)",
+    "baseline_recall": 0.05,
+    "framework_recall": 0.15,
+    "delta_recall": 0.09999999999999999,
+    "ci_95": [
+      0.0,
+      0.21951219512195122
+    ],
+    "improvement": true,
+    "evidence_file": "validation/bootstrap_primary_ci.json"
+  },
+  "Q2_cost_or_pareto": {
+    "question": "비용 절감 또는 동일 비용에서 성능 개선?",
+    "normalized_cost_reduction_pct": 0,
+    "cost_ok": true,
+    "r_sweep_dominance_count": 6,
+    "dominance_ok": true,
+    "evidence_file": "validation/sensitivity_cost_ratio.csv"
+  },
+  "Q3_policy_fixed": {
+    "question": "selection_rate 10%, high-risk k=40 고정?",
+    "selection_rate_fixed": true,
+    "high_risk_k": 40,
+    "test_size": 200,
+    "evidence_file": "validation/high_risk_definition.json"
+  },
+  "Q4_reproducibility": {
+    "question": "근거 파일로 재현 가능?",
+    "manifest_exists": true,
+    "evidence_index_count": 16,
+    "ok": true
+  },
+  "Q5_proxy_separation": {
+    "question": "proxy FAILED 시 core에 proxy 미혼합?",
+    "proxy_failed": true,
+    "core_clean": true,
+    "ok": true,
+    "issues": []
+  },
+  "Q6_lot_or_generalization": {
+    "question": "lot leakage 방지/일반화 검증?",
+    "group_split_in_core": false,
+    "todo_documented": true
+  },
+  "primary_summary": {
+    "recall_at_10pct": {
+      "baseline": 0.05,
+      "framework": 0.15,
+      "ci_95": [
+        0.0,
+        0.21951219512195122
+      ]
+    },
+    "normalized_cost": {
+      "reduction_pct": 0,
+      "delta_cost_pct_ci": [
+        -90.9090909090909,
+        47.368421052631575
+      ]
+    }
+  },
+  "q1_ci_contains_zero": true,
+  "adversarial_tests": "See tests/test_adversarial_verify.py or run scripts/run_adversarial_tests.py"
+}
