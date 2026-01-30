@@ -67,18 +67,22 @@ trackb/
 
 | 구성 요소 | 상태 | 설명 |
 |-----------|------|------|
-| Stage 0-2A (STEP 1) | ✅ | Ground truth 검증 |
-| Stage 2B (STEP 2) | ⚠️ | 독립 검증 (WM-811K) |
-| Stage 3 (STEP 3) | ⚠️ | 독립 검증 (Carinthia) |
-| 통합 | ⚠️ | Proxy 기반 |
+| Stage 0–2A (STEP 1) | ✅ | Same-source, yield_true GT validated |
+| Stage 2B (STEP 2) | ⚠️ | Benchmark performance reported (proxy; WM-811K) |
+| Stage 3 (STEP 3) | ⚠️ | Benchmark performance reported (proxy; Carinthia) |
+| 통합 | ⚠️ | Proxy plausibility check only (not causal) |
 
-## 주요 결과 (예시)
+## 주요 결과 (예시, run_20260131_004542 기준)
 
-| 지표 | Random | Rule-based | Framework |
-|------|--------|------------|-----------|
-| 고위험 Recall | 45% | 52% | 87% |
-| 비용/웨이퍼 | $150 | $150 | $108 |
-| 검출당 비용 | $1,667 | $1,442 | $620 |
+**Primary endpoints** (Step1 Core, selection_rate=10%):
+
+| Method | High-risk Recall | Cost per catch (norm) |
+|--------|------------------|----------------------|
+| random | 5.0% | 1500 |
+| rulebased | 12.5% | 600 |
+| framework | 15.0% | 500 |
+
+**Note**: Cost values are in **normalized units (not currency)**. Core conclusions use bootstrap 95% CI only. See `outputs/run_*/reports/trackB_report_core_validated.md` for full results.
 
 ## 관련 문서
 
