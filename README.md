@@ -179,6 +179,78 @@ Logs are organized by functionality:
 - Root cause analysis: `logs/root_cause_analysis/`
 - Learning feedback: `logs/learning_feedback/`
 
+## Git Workflow (Commit & Push)
+
+한글 커밋 메시지가 GitHub에서 깨지지 않도록 인코딩을 설정한 뒤, 커밋·푸시하면 됩니다.
+
+### 1. 인코딩 설정 (한글 깨짐 방지)
+
+최초 한 번만 설정하면 됩니다.
+
+```bash
+# 커밋 메시지를 UTF-8로 저장
+git config --global i18n.commitEncoding utf-8
+
+# 로그 출력을 UTF-8로 표시
+git config --global i18n.logOutputEncoding utf-8
+
+# Windows: 한글 파일명/경로 깨짐 방지
+git config --global core.quotepath false
+```
+
+### 2. 일반적인 커밋 & 푸시
+
+```bash
+# 변경 파일 스테이징
+git add .
+
+# 또는 특정 파일만
+git add README.md streamlit_app/app.py
+
+# 커밋 (한글 메시지 사용 가능)
+git commit -m "feat: Paper Agent 입력 가이드 추가"
+
+# 원격 저장소로 푸시
+git push origin main
+```
+
+### 3. 방금 한 커밋 메시지 수정 후 푸시
+
+이미 `git commit` 했는데 메시지를 바꾸고 싶을 때:
+
+```bash
+# 가장 최근 커밋 메시지 수정 (에디터 열림)
+git commit --amend
+
+# 또는 한 줄로 메시지 지정
+git commit --amend -m "feat: Paper Agent 입력 가이드 추가"
+
+# 이미 push 했다면 강제 푸시 (main 브랜치 히스토리 변경됨)
+git push --force origin main
+```
+
+**주의:** `git push --force`는 원격 브랜치 히스토리를 덮어씁니다. 다른 사람과 같은 브랜치를 쓰면 사전에 합의하는 것이 좋습니다.
+
+### 4. 인코딩 설정 후 이미 깨진 커밋 고치기
+
+과거 커밋 메시지가 한글 깨짐으로 저장된 경우:
+
+1. 위 **1번**대로 인코딩 설정
+2. **3번**대로 `git commit --amend -m "올바른 한글 메시지"` 로 수정
+3. `git push --force origin main` 으로 푸시
+
+### 5. 상태 확인
+
+```bash
+# 변경/스테이징 상태 확인
+git status
+
+# 최근 커밋 로그 (한글이 제대로 보이는지 확인)
+git log -1 --oneline
+```
+
+---
+
 ## Contributing
 
 1. Fork the repository
